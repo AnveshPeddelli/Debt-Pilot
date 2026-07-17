@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/debtpilot_tests[1]_tests.cmake")
+  include("C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/debtpilot_tests[1]_tests.cmake")
+else()
+  add_test(debtpilot_tests_NOT_BUILT debtpilot_tests_NOT_BUILT)
+endif()

@@ -1,0 +1,246 @@
+Start testing: Jul 17 14:53 India Standard Time
+----------------------------------------------------------
+1/9 Testing: MoneyTests.DefaultValueisZero
+1/9 Test: MoneyTests.DefaultValueisZero
+Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=MoneyTests.DefaultValueisZero" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
+"MoneyTests.DefaultValueisZero" start time: Jul 17 14:53 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = MoneyTests.DefaultValueisZero
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MoneyTests
+[ RUN      ] MoneyTests.DefaultValueisZero
+[       OK ] MoneyTests.DefaultValueisZero (0 ms)
+[----------] 1 test from MoneyTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"MoneyTests.DefaultValueisZero" end time: Jul 17 14:53 India Standard Time
+"MoneyTests.DefaultValueisZero" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/9 Testing: MoneyTests.StorePaise
+2/9 Test: MoneyTests.StorePaise
+Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=MoneyTests.StorePaise" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
+"MoneyTests.StorePaise" start time: Jul 17 14:53 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = MoneyTests.StorePaise
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MoneyTests
+[ RUN      ] MoneyTests.StorePaise
+[       OK ] MoneyTests.StorePaise (0 ms)
+[----------] 1 test from MoneyTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MoneyTests.StorePaise" end time: Jul 17 14:53 India Standard Time
+"MoneyTests.StorePaise" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/9 Testing: MoneyTests.AddAmounts
+3/9 Test: MoneyTests.AddAmounts
+Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=MoneyTests.AddAmounts" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
+"MoneyTests.AddAmounts" start time: Jul 17 14:53 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = MoneyTests.AddAmounts
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MoneyTests
+[ RUN      ] MoneyTests.AddAmounts
+[       OK ] MoneyTests.AddAmounts (0 ms)
+[----------] 1 test from MoneyTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MoneyTests.AddAmounts" end time: Jul 17 14:53 India Standard Time
+"MoneyTests.AddAmounts" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/9 Testing: MoneyTests.SubtractsAmounts
+4/9 Test: MoneyTests.SubtractsAmounts
+Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=MoneyTests.SubtractsAmounts" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
+"MoneyTests.SubtractsAmounts" start time: Jul 17 14:53 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = MoneyTests.SubtractsAmounts
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MoneyTests
+[ RUN      ] MoneyTests.SubtractsAmounts
+[       OK ] MoneyTests.SubtractsAmounts (0 ms)
+[----------] 1 test from MoneyTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MoneyTests.SubtractsAmounts" end time: Jul 17 14:53 India Standard Time
+"MoneyTests.SubtractsAmounts" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/9 Testing: MoneyTests.SupportComparison
+5/9 Test: MoneyTests.SupportComparison
+Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=MoneyTests.SupportComparison" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
+"MoneyTests.SupportComparison" start time: Jul 17 14:53 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = MoneyTests.SupportComparison
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MoneyTests
+[ RUN      ] MoneyTests.SupportComparison
+[       OK ] MoneyTests.SupportComparison (0 ms)
+[----------] 1 test from MoneyTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MoneyTests.SupportComparison" end time: Jul 17 14:53 India Standard Time
+"MoneyTests.SupportComparison" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/9 Testing: InterestTest.zeroRate
+6/9 Test: InterestTest.zeroRate
+Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=InterestTest.zeroRate" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
+"InterestTest.zeroRate" start time: Jul 17 14:53 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = InterestTest.zeroRate
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from InterestTest
+[ RUN      ] InterestTest.zeroRate
+[       OK ] InterestTest.zeroRate (0 ms)
+[----------] 1 test from InterestTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"InterestTest.zeroRate" end time: Jul 17 14:53 India Standard Time
+"InterestTest.zeroRate" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/9 Testing: InterestTest.PositiveRate
+7/9 Test: InterestTest.PositiveRate
+Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=InterestTest.PositiveRate" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
+"InterestTest.PositiveRate" start time: Jul 17 14:53 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = InterestTest.PositiveRate
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from InterestTest
+[ RUN      ] InterestTest.PositiveRate
+[       OK ] InterestTest.PositiveRate (0 ms)
+[----------] 1 test from InterestTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"InterestTest.PositiveRate" end time: Jul 17 14:53 India Standard Time
+"InterestTest.PositiveRate" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/9 Testing: InterestTest.NegativeRate
+8/9 Test: InterestTest.NegativeRate
+Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=InterestTest.NegativeRate" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
+"InterestTest.NegativeRate" start time: Jul 17 14:53 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = InterestTest.NegativeRate
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from InterestTest
+[ RUN      ] InterestTest.NegativeRate
+[       OK ] InterestTest.NegativeRate (1 ms)
+[----------] 1 test from InterestTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"InterestTest.NegativeRate" end time: Jul 17 14:53 India Standard Time
+"InterestTest.NegativeRate" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/9 Testing: InterestTest.StoredBasisPoint
+9/9 Test: InterestTest.StoredBasisPoint
+Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=InterestTest.StoredBasisPoint" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
+"InterestTest.StoredBasisPoint" start time: Jul 17 14:53 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = InterestTest.StoredBasisPoint
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from InterestTest
+[ RUN      ] InterestTest.StoredBasisPoint
+[       OK ] InterestTest.StoredBasisPoint (0 ms)
+[----------] 1 test from InterestTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"InterestTest.StoredBasisPoint" end time: Jul 17 14:53 India Standard Time
+"InterestTest.StoredBasisPoint" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jul 17 14:53 India Standard Time

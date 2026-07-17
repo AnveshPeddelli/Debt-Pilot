@@ -1,0 +1,63 @@
+{
+  "tests": 9,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "MoneyTests",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "DefaultValueisZero",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\MoneyTests.cpp",
+          "line": 6
+        },
+        {
+          "name": "StorePaise",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\MoneyTests.cpp",
+          "line": 14
+        },
+        {
+          "name": "AddAmounts",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\MoneyTests.cpp",
+          "line": 20
+        },
+        {
+          "name": "SubtractsAmounts",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\MoneyTests.cpp",
+          "line": 28
+        },
+        {
+          "name": "SupportComparison",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\MoneyTests.cpp",
+          "line": 36
+        }
+      ]
+    },
+    {
+      "name": "InterestTest",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "zeroRate",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\InterestRateTests.cpp",
+          "line": 6
+        },
+        {
+          "name": "PositiveRate",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\InterestRateTests.cpp",
+          "line": 13
+        },
+        {
+          "name": "NegativeRate",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\InterestRateTests.cpp",
+          "line": 20
+        },
+        {
+          "name": "StoredBasisPoint",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\InterestRateTests.cpp",
+          "line": 25
+        }
+      ]
+    }
+  ]
+}

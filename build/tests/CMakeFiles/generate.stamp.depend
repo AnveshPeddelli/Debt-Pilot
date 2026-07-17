@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/Users/p.anvesh/source/repos/Debt-Pilot/tests/CMakeLists.txt
+D:/VISUAL-STUDIO-2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/ExternalProject/shared_internal_commands.cmake
+D:/VISUAL-STUDIO-2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/FetchContent.cmake
+D:/VISUAL-STUDIO-2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/FetchContent/CMakeLists.cmake.in
+D:/VISUAL-STUDIO-2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/GoogleTest.cmake

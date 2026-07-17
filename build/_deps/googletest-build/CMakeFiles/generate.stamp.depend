@@ -1,0 +1,19 @@
+# CMake generation dependency list for this directory.
+C:/Users/p.anvesh/source/repos/Debt-Pilot/build/CMakeFiles/4.3.1-msvc1/CMakeCCompiler.cmake
+C:/Users/p.anvesh/source/repos/Debt-Pilot/build/_deps/googletest-src/CMakeLists.txt
+D:/VISUAL-STUDIO-2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeCInformation.cmake
+D:/VISUAL-STUDIO-2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeCommonLanguageInclude.cmake
+D:/VISUAL-STUDIO-2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDependentOption.cmake
+D:/VISUAL-STUDIO-2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeLanguageInformation.cmake
+D:/VISUAL-STUDIO-2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+D:/VISUAL-STUDIO-2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/Compiler/MSVC-C.cmake
+D:/VISUAL-STUDIO-2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/Compiler/MSVC.cmake
+D:/VISUAL-STUDIO-2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/GNUInstallDirs.cmake
+D:/VISUAL-STUDIO-2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/Internal/CMakeCLinkerInformation.cmake
+D:/VISUAL-STUDIO-2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/Internal/CMakeCommonLinkerInformation.cmake
+D:/VISUAL-STUDIO-2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/Linker/MSVC-C.cmake
+D:/VISUAL-STUDIO-2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/Linker/MSVC.cmake
+D:/VISUAL-STUDIO-2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/Platform/Linker/Windows-MSVC-C.cmake
+D:/VISUAL-STUDIO-2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/Platform/Linker/Windows-MSVC.cmake
+D:/VISUAL-STUDIO-2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC-C.cmake
+D:/VISUAL-STUDIO-2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake

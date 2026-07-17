@@ -1,0 +1,10 @@
+MoneyTests.DefaultValueisZero 3 0.00932683
+MoneyTests.StorePaise 3 0.0045678
+MoneyTests.AddAmounts 3 0.0036298
+MoneyTests.SubtractsAmounts 3 0.00368207
+MoneyTests.SupportComparison 3 0.00360773
+InterestTest.zeroRate 2 0.0068683
+InterestTest.PositiveRate 2 0.00525995
+InterestTest.NegativeRate 2 0.0070956
+InterestTest.StoredBasisPoint 2 0.00967095
+---

@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+C:/Users/p.anvesh/source/repos/Debt-Pilot/build/_deps/googletest-src/googlemock/CMakeLists.txt
+C:/Users/p.anvesh/source/repos/Debt-Pilot/build/_deps/googletest-src/googlemock/cmake/gmock.pc.in
+C:/Users/p.anvesh/source/repos/Debt-Pilot/build/_deps/googletest-src/googlemock/cmake/gmock_main.pc.in
+D:/VISUAL-STUDIO-2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CheckCSourceCompiles.cmake
+D:/VISUAL-STUDIO-2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CheckIncludeFile.cmake
+D:/VISUAL-STUDIO-2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CheckLibraryExists.cmake
+D:/VISUAL-STUDIO-2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake
+D:/VISUAL-STUDIO-2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/FindPackageMessage.cmake
+D:/VISUAL-STUDIO-2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/FindThreads.cmake
