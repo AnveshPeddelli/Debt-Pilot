@@ -1,7 +1,7 @@
 #pragma once
 
-#include <iostream>
 #include <compare>
+#include <cstdint>
 
 
 namespace debtpilot
@@ -61,7 +61,7 @@ namespace debtpilot
                 return left;
             }
 
-            std::strong_ordering operator<=>(const Money&) const = default;    
+            constexpr auto operator<=>(const Money&) const noexcept = default;
 
         private:
             ValueType paise_{0};

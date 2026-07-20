@@ -430,6 +430,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemGroup>
     <ClCompile Include="C:\Users\p.anvesh\source\repos\Debt-Pilot\tests\MoneyTests.cpp" />
     <ClCompile Include="C:\Users\p.anvesh\source\repos\Debt-Pilot\tests\InterestRateTests.cpp" />
+    <ClCompile Include="C:\Users\p.anvesh\source\repos\Debt-Pilot\tests\DebtTests.cpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

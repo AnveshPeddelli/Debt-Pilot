@@ -1,29 +1,39 @@
 #include "debtpilot/InterestRate.hpp"
+
 #include <gtest/gtest.h>
+
+#include <limits>
+#include <stdexcept>
 
 using debtpilot::InterestRate;
 
-TEST(InterestTest, zeroRate)
+TEST(InterestRateTests, ZeroRate)
 {
-    const InterestRate Irr = InterestRate::fromBasisPoints(0);
-    EXPECT_TRUE(Irr.isZero());
-    EXPECT_EQ(Irr.basisPoints(), 0);
+    const InterestRate rate = InterestRate::fromBasisPoints(0);
+    EXPECT_TRUE(rate.isZero());
+    EXPECT_EQ(rate.basisPoints(), 0);
 }
 
-TEST(InterestTest, PositiveRate)
+TEST(InterestRateTests, PositiveRate)
 {
-    const InterestRate Irr = InterestRate::fromBasisPoints(1'200);
-    EXPECT_GT(Irr.basisPoints(), 0);
-    EXPECT_EQ(Irr.basisPoints(), 1'200);
+    const InterestRate rate = InterestRate::fromBasisPoints(1'200);
+    EXPECT_FALSE(rate.isZero());
+    EXPECT_EQ(rate.basisPoints(), 1'200);
 }
 
-TEST(InterestTest, NegativeRate)
+TEST(InterestRateTests, RejectsNegativeRate)
 {
-    EXPECT_THROW(InterestRate::fromBasisPoints(-1), std::invalid_argument);
+    EXPECT_THROW((void)InterestRate::fromBasisPoints(-1), std::invalid_argument);
 }
 
-TEST(InterestTest, StoredBasisPoint)
+TEST(InterestRateTests, StoresIntegerBoundary)
 {
-    const InterestRate Irr = InterestRate::fromBasisPoints(12);
-    EXPECT_EQ(Irr.basisPoints(), 12);
+    const auto maximum = std::numeric_limits<InterestRate::BasisPoints>::max();
+    EXPECT_EQ(InterestRate::fromBasisPoints(maximum).basisPoints(), maximum);
+}
+
+TEST(InterestRateTests, SupportsComparison)
+{
+    EXPECT_LT(InterestRate::fromBasisPoints(500),
+              InterestRate::fromBasisPoints(1'200));
 }

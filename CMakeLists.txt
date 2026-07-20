@@ -11,6 +11,24 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
+function(debtpilot_enable_strict_warnings target_name)
+    if(MSVC)
+        target_compile_options(${target_name} PRIVATE
+            /W4
+            /permissive-
+            /Zc:__cplusplus
+        )
+    else()
+        target_compile_options(${target_name} PRIVATE
+            -Wall
+            -Wextra
+            -Wpedantic
+            -Wconversion
+            -Wsign-conversion
+        )
+    endif()
+endfunction()
+
 option(DEBTPILOT_BUILD_TESTS "Build DebtPilot test" ON)
 
 add_subdirectory(core)

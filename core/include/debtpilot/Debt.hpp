@@ -12,7 +12,14 @@ namespace debtpilot
     class Debt
     {
         public:
-            Debt(std::string id, std::string name, DebtType type, Money outstandingBalance, InterestRate annualInterestRate, Money minimumPayment, std::optional<int> dueDay = std::nullopt);
+            Debt(
+                std::string id,
+                std::string name,
+                DebtType type,
+                Money outstandingBalance,
+                InterestRate annualInterestRate,
+                Money minimumPayment,
+                std::optional<int> dueDay = std::nullopt);
 
             [[nodiscard]] const std::string& id() const noexcept;
             [[nodiscard]] const std::string& name() const noexcept;

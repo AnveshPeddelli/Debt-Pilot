@@ -1,8 +1,10 @@
 #pragma once
 
+#include <cstdint>
+
 namespace debtpilot
 {
-    enum class DebtType
+    enum class DebtType : std::uint8_t
     {
         CreditCard,
         PersonalLoan,
@@ -11,6 +13,6 @@ namespace debtpilot
         HomeLoan,
         BuyNowPayLater,
         InformalLoan,
-        other
+        Other
     };
 }

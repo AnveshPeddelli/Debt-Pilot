@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\p.anvesh\source\repos\Debt-Pilot\buld\CMakeFiles\317ec6ee124df7514f84179c9f75b23f\NightlyMemoryCheck.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\p.anvesh\source\repos\Debt-Pilot\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\p.anvesh\source\repos\Debt-Pilot\buld\CMakeFiles\NightlyMemoryCheck" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A383F0AD-A69F-362A-8CA7-FA94F7397427}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

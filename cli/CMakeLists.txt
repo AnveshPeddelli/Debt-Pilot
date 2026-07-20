@@ -10,8 +10,4 @@ target_compile_features(debtpilot_cli PRIVATE
     cxx_std_20
 )
 
-if(MSVC)
-    target_compile_options(debtpilot_cli PRIVATE
-        /Zc:__cplusplus
-    )
-endif()
+debtpilot_enable_strict_warnings(debtpilot_cli)

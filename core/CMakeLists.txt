@@ -13,16 +13,4 @@ target_compile_features(debtpilot_core PUBLIC
     cxx_std_20
 )
 
-if(MSVC)
-    target_compile_options(debtpilot_core PRIVATE
-        /W4
-        /permissive-
-        /Zc:__cplusplus
-    )
-else()
-    target_compile_options(debtpilot_core PRIVATE
-        -Wall
-        -Wextra
-        -Wpedantic
-    )
-endif()
+debtpilot_enable_strict_warnings(debtpilot_core)

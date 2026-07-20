@@ -1,5 +1,6 @@
 #pragma once
 
+#include <compare>
 #include <cstdint>
 #include <stdexcept>
 
@@ -10,7 +11,7 @@ namespace debtpilot
         public:
             using BasisPoints = std::int32_t;
 
-            static InterestRate fromBasisPoints(BasisPoints value)
+            [[nodiscard]] static constexpr InterestRate fromBasisPoints(BasisPoints value)
             {
                 if(value < 0)
                     throw std::invalid_argument{"Interest rate cannot be negative"};
@@ -28,7 +29,7 @@ namespace debtpilot
                 return basisPoints_ == 0;
             }
             
-            auto operator <=>(const InterestRate&) const = default;
+            constexpr auto operator<=>(const InterestRate&) const noexcept = default;
 
 
         private:

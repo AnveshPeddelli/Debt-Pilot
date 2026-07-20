@@ -1,13 +1,25 @@
 #include "debtpilot/Debt.hpp"
 
+#include <stdexcept>
+#include <utility>
 
 namespace debtpilot
 {
-    //Conditional loading of the constructor
-    Debt::Debt(std::string id, std::string name, DebtType type, Money outstandingBalance, 
-        InterestRate annualInterestRate, Money minimumPayment, std::optional<int> dueDay): 
-    id_{std::move(id)}, name_{std::move(name)}, type_{type}, outstandingBalance_{outstandingBalance}, 
-        annualInterestRate_{annualInterestRate}, minimumPayment_{minimumPayment}, dueDay_{dueDay}
+    Debt::Debt(
+        std::string id,
+        std::string name,
+        DebtType type,
+        Money outstandingBalance,
+        InterestRate annualInterestRate,
+        Money minimumPayment,
+        std::optional<int> dueDay)
+        : id_{std::move(id)},
+          name_{std::move(name)},
+          type_{type},
+          outstandingBalance_{outstandingBalance},
+          annualInterestRate_{annualInterestRate},
+          minimumPayment_{minimumPayment},
+          dueDay_{dueDay}
     {
         if(id_.empty())
         {
@@ -16,7 +28,7 @@ namespace debtpilot
     
         if(name_.empty())
         {
-            throw std::invalid_argument("Debt name cannot be empty");
+            throw std::invalid_argument{"Debt name cannot be empty"};
         }
     
         if(outstandingBalance_.paise() <= 0)
