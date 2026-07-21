@@ -34,7 +34,7 @@ TEST(MonthlyInterestCalcularor, CalculatesTwelvePercentAnnualInterest)
 TEST(MonthlyInterestCalculator, CalculatesEighteenPercentAnnualInterest)
 {
     const Money balance = Money::fromPaise(5'000'000);
-    const InterestRate rate = InterestRate::fromBasisPoints(1'000);
+    const InterestRate rate = InterestRate::fromBasisPoints(1'800);
     const Money interest = MonthlyInterestCalculator::calculate(balance, rate);
     EXPECT_EQ(interest.paise(), 75'000);
 }
