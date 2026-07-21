@@ -316,6 +316,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\p.anvesh\source\repos\Debt-Pilot\core\src\InterestRate.cpp" />
     <ClCompile Include="C:\Users\p.anvesh\source\repos\Debt-Pilot\core\src\Money.cpp" />
     <ClCompile Include="C:\Users\p.anvesh\source\repos\Debt-Pilot\core\src\MonthlyBudget.cpp" />
+    <ClCompile Include="C:\Users\p.anvesh\source\repos\Debt-Pilot\core\src\MonthlyInterestCalculator.cpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

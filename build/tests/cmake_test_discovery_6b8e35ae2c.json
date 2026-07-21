@@ -1,5 +1,5 @@
 {
-  "tests": 21,
+  "tests": 27,
   "name": "AllTests",
   "testsuites": [
     {
@@ -122,6 +122,48 @@
           "name": "RejectsDueDayOutsideCalendarRange",
           "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\DebtTests.cpp",
           "line": 98
+        }
+      ]
+    },
+    {
+      "name": "MonthlyInterestCalculator",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "ZeroBalanceProducesZeroInterest",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\MonthlyInterestCalculatorTests.cpp",
+          "line": 10
+        },
+        {
+          "name": "CalculatesEighteenPercentAnnualInterest",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\MonthlyInterestCalculatorTests.cpp",
+          "line": 34
+        },
+        {
+          "name": "RoundsHalfPaiseUp",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\MonthlyInterestCalculatorTests.cpp",
+          "line": 42
+        },
+        {
+          "name": "RejectsNegativeBalance",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\MonthlyInterestCalculatorTests.cpp",
+          "line": 53
+        }
+      ]
+    },
+    {
+      "name": "MonthlyInterestCalcularor",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "ZeroRateProduceZeroInterest",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\MonthlyInterestCalculatorTests.cpp",
+          "line": 18
+        },
+        {
+          "name": "CalculatesTwelvePercentAnnualInterest",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\MonthlyInterestCalculatorTests.cpp",
+          "line": 26
         }
       ]
     }

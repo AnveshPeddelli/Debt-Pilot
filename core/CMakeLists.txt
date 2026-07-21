@@ -3,6 +3,7 @@ add_library(debtpilot_core STATIC
     src/InterestRate.cpp 
     src/Money.cpp
     src/MonthlyBudget.cpp
+    src/MonthlyInterestCalculator.cpp
     )
 
 target_include_directories(debtpilot_core PUBLIC
