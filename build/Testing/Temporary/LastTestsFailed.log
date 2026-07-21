@@ -1,1 +1,2 @@
-23:MonthlyInterestCalculator.CalculatesEighteenPercentAnnualInterest
+33:MonthlyRepaymentCalculatorTest.RejectsNegativePayment
+34:MonthlyRepaymentCalculatorTest.RejectNegativeOpeningBalance

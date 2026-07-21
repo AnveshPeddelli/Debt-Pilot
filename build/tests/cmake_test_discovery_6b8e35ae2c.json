@@ -1,5 +1,5 @@
 {
-  "tests": 27,
+  "tests": 34,
   "name": "AllTests",
   "testsuites": [
     {
@@ -164,6 +164,47 @@
           "name": "CalculatesTwelvePercentAnnualInterest",
           "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\MonthlyInterestCalculatorTests.cpp",
           "line": 26
+        }
+      ]
+    },
+    {
+      "name": "MonthlyRepaymentCalculatorTest",
+      "tests": 7,
+      "testsuite": [
+        {
+          "name": "AppliesInterestAndPayment",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\MonthlyRepaymentCalculatorTests.cpp",
+          "line": 10
+        },
+        {
+          "name": "AppliesEntirePaymentToPrincipalAtZeroInterest",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\MonthlyRepaymentCalculatorTests.cpp",
+          "line": 24
+        },
+        {
+          "name": "LimitsFinalPaymentToAmountDue",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\MonthlyRepaymentCalculatorTests.cpp",
+          "line": 37
+        },
+        {
+          "name": "BalanceIncreasesWhenPaymentIsBelowInterest",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\MonthlyRepaymentCalculatorTests.cpp",
+          "line": 55
+        },
+        {
+          "name": "ZeroBalanceRequiresNoPayment",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\MonthlyRepaymentCalculatorTests.cpp",
+          "line": 69
+        },
+        {
+          "name": "RejectsNegativePayment",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\MonthlyRepaymentCalculatorTests.cpp",
+          "line": 84
+        },
+        {
+          "name": "RejectNegativeOpeningBalance",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\MonthlyRepaymentCalculatorTests.cpp",
+          "line": 94
         }
       ]
     }

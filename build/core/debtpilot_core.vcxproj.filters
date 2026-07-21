@@ -16,6 +16,12 @@
     <ClCompile Include="C:\Users\p.anvesh\source\repos\Debt-Pilot\core\src\MonthlyInterestCalculator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\p.anvesh\source\repos\Debt-Pilot\core\src\MonthlyRepaymentResult.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\p.anvesh\source\repos\Debt-Pilot\core\src\MonthlyRepaymentCalculator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\p.anvesh\source\repos\Debt-Pilot\core\CMakeLists.txt" />

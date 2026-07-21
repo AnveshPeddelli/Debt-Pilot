@@ -4,7 +4,9 @@ add_library(debtpilot_core STATIC
     src/Money.cpp
     src/MonthlyBudget.cpp
     src/MonthlyInterestCalculator.cpp
-    )
+    src/MonthlyRepaymentResult.cpp
+    src/MonthlyRepaymentCalculator.cpp
+)
 
 target_include_directories(debtpilot_core PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/include
