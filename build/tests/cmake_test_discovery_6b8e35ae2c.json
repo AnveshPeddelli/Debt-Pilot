@@ -1,5 +1,5 @@
 {
-  "tests": 34,
+  "tests": 41,
   "name": "AllTests",
   "testsuites": [
     {
@@ -205,6 +205,47 @@
           "name": "RejectNegativeOpeningBalance",
           "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\MonthlyRepaymentCalculatorTests.cpp",
           "line": 94
+        }
+      ]
+    },
+    {
+      "name": "RepaymentScheduleGeneratorTest",
+      "tests": 7,
+      "testsuite": [
+        {
+          "name": "GenerateScheduleUntilDebtIsRepaid",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\RepaymentScheduleGeneratorTests.cpp",
+          "line": 11
+        },
+        {
+          "name": "AdjustsFinalPaymentToRemainingBalance",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\RepaymentScheduleGeneratorTests.cpp",
+          "line": 25
+        },
+        {
+          "name": "AccumulatesTotalInterest",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\RepaymentScheduleGeneratorTests.cpp",
+          "line": 43
+        },
+        {
+          "name": "RejectsPaymentThatDoesNotReduceBalance",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\RepaymentScheduleGeneratorTests.cpp",
+          "line": 56
+        },
+        {
+          "name": "RejectZeroPaymentForOutstandingDebt",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\RepaymentScheduleGeneratorTests.cpp",
+          "line": 66
+        },
+        {
+          "name": "ReturnEmptyScheduleForZeroBalance",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\RepaymentScheduleGeneratorTests.cpp",
+          "line": 76
+        },
+        {
+          "name": "StopsAtMaximumMonthLimit",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\RepaymentScheduleGeneratorTests.cpp",
+          "line": 91
         }
       ]
     }
