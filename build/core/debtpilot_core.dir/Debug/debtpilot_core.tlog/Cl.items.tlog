@@ -5,3 +5,5 @@ C:\Users\p.anvesh\source\repos\Debt-Pilot\core\src\MonthlyBudget.cpp;C:\Users\p.
 C:\Users\p.anvesh\source\repos\Debt-Pilot\core\src\MonthlyInterestCalculator.cpp;C:\Users\p.anvesh\source\repos\Debt-Pilot\build\core\debtpilot_core.dir\Debug\MonthlyInterestCalculator.obj
 C:\Users\p.anvesh\source\repos\Debt-Pilot\core\src\MonthlyRepaymentResult.cpp;C:\Users\p.anvesh\source\repos\Debt-Pilot\build\core\debtpilot_core.dir\Debug\MonthlyRepaymentResult.obj
 C:\Users\p.anvesh\source\repos\Debt-Pilot\core\src\MonthlyRepaymentCalculator.cpp;C:\Users\p.anvesh\source\repos\Debt-Pilot\build\core\debtpilot_core.dir\Debug\MonthlyRepaymentCalculator.obj
+C:\Users\p.anvesh\source\repos\Debt-Pilot\core\src\RepaymentSchedule.cpp;C:\Users\p.anvesh\source\repos\Debt-Pilot\build\core\debtpilot_core.dir\Debug\RepaymentSchedule.obj
+C:\Users\p.anvesh\source\repos\Debt-Pilot\core\src\RepaymentScheduleGenerator.cpp;C:\Users\p.anvesh\source\repos\Debt-Pilot\build\core\debtpilot_core.dir\Debug\RepaymentScheduleGenerator.obj

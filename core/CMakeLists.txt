@@ -6,6 +6,8 @@ add_library(debtpilot_core STATIC
     src/MonthlyInterestCalculator.cpp
     src/MonthlyRepaymentResult.cpp
     src/MonthlyRepaymentCalculator.cpp
+    src/RepaymentSchedule.cpp
+    src/RepaymentScheduleGenerator.cpp
 )
 
 target_include_directories(debtpilot_core PUBLIC
