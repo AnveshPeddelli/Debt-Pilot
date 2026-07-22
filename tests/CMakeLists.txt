@@ -17,6 +17,7 @@ add_executable(debtpilot_tests
     MonthlyInterestCalculatorTests.cpp
     MonthlyRepaymentCalculatorTests.cpp
     RepaymentScheduleGeneratorTests.cpp
+    DebtPrioritizerTests.cpp
 )
 
 target_link_libraries(debtpilot_tests PRIVATE

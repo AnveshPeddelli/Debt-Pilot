@@ -1,5 +1,5 @@
 {
-  "tests": 41,
+  "tests": 46,
   "name": "AllTests",
   "testsuites": [
     {
@@ -246,6 +246,37 @@
           "name": "StopsAtMaximumMonthLimit",
           "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\RepaymentScheduleGeneratorTests.cpp",
           "line": 91
+        }
+      ]
+    },
+    {
+      "name": "DebtPrioritizerTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "SnowballOrdersLowestBalanceFirst",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\DebtPrioritizerTests.cpp",
+          "line": 21
+        },
+        {
+          "name": "AvalancheOrdersHighestinterestFirst",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\DebtPrioritizerTests.cpp",
+          "line": 37
+        },
+        {
+          "name": "SnowballUsesHigherInterestForEqualBalances",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\DebtPrioritizerTests.cpp",
+          "line": 55
+        },
+        {
+          "name": "AvalancheUsesLowerBalanceForEqualRates",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\DebtPrioritizerTests.cpp",
+          "line": 69
+        },
+        {
+          "name": "EmptyDebtCollectionProducesEmptyOrder",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\DebtPrioritizerTests.cpp",
+          "line": 83
         }
       ]
     }
