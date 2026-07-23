@@ -325,6 +325,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\p.anvesh\source\repos\Debt-Pilot\core\src\DebtPaymentAllocation.cpp" />
     <ClCompile Include="C:\Users\p.anvesh\source\repos\Debt-Pilot\core\src\PortfolioPaymentAllocation.cpp" />
     <ClCompile Include="C:\Users\p.anvesh\source\repos\Debt-Pilot\core\src\PortfolioPaymentAllocator.cpp" />
+    <ClCompile Include="C:\Users\p.anvesh\source\repos\Debt-Pilot\core\src\PortfolioMonthResult.cpp" />
+    <ClCompile Include="C:\Users\p.anvesh\source\repos\Debt-Pilot\core\src\PortfolioRepaymentPlan.cpp" />
+    <ClCompile Include="C:\Users\p.anvesh\source\repos\Debt-Pilot\core\src\PortfolioRepaymentSimulator.cpp" />
+    <ClCompile Include="C:\Users\p.anvesh\source\repos\Debt-Pilot\core\src\DebtMonthlySnapshot.cpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

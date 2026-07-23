@@ -4,6 +4,7 @@
 #include "debtpilot/MonthlyInterestCalculator.hpp"
 
 #include <stdexcept>
+#include <utility>
 #include <vector>
 
 namespace debtpilot

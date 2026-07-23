@@ -82,4 +82,14 @@ namespace debtpilot
         return dueDay_;
     }
 
+    void Debt::updateOutstandingBalance(Money newBalance)
+    {
+        if(newBalance.paise() < 0)
+        {
+            throw std::invalid_argument{"Outstanding balance cannot be negative"};
+        }
+
+        outstandingBalance_ = newBalance;
+    }
+
 }    

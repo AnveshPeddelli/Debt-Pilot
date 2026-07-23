@@ -40,6 +40,18 @@
     <ClCompile Include="C:\Users\p.anvesh\source\repos\Debt-Pilot\core\src\PortfolioPaymentAllocator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\p.anvesh\source\repos\Debt-Pilot\core\src\PortfolioMonthResult.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\p.anvesh\source\repos\Debt-Pilot\core\src\PortfolioRepaymentPlan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\p.anvesh\source\repos\Debt-Pilot\core\src\PortfolioRepaymentSimulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\p.anvesh\source\repos\Debt-Pilot\core\src\DebtMonthlySnapshot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\p.anvesh\source\repos\Debt-Pilot\core\CMakeLists.txt" />

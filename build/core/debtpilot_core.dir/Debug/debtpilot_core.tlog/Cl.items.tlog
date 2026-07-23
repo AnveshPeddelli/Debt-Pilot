@@ -11,3 +11,7 @@ C:\Users\p.anvesh\source\repos\Debt-Pilot\core\src\DebtPrioritizer.cpp;C:\Users\
 C:\Users\p.anvesh\source\repos\Debt-Pilot\core\src\DebtPaymentAllocation.cpp;C:\Users\p.anvesh\source\repos\Debt-Pilot\build\core\debtpilot_core.dir\Debug\DebtPaymentAllocation.obj
 C:\Users\p.anvesh\source\repos\Debt-Pilot\core\src\PortfolioPaymentAllocation.cpp;C:\Users\p.anvesh\source\repos\Debt-Pilot\build\core\debtpilot_core.dir\Debug\PortfolioPaymentAllocation.obj
 C:\Users\p.anvesh\source\repos\Debt-Pilot\core\src\PortfolioPaymentAllocator.cpp;C:\Users\p.anvesh\source\repos\Debt-Pilot\build\core\debtpilot_core.dir\Debug\PortfolioPaymentAllocator.obj
+C:\Users\p.anvesh\source\repos\Debt-Pilot\core\src\PortfolioMonthResult.cpp;C:\Users\p.anvesh\source\repos\Debt-Pilot\build\core\debtpilot_core.dir\Debug\PortfolioMonthResult.obj
+C:\Users\p.anvesh\source\repos\Debt-Pilot\core\src\PortfolioRepaymentPlan.cpp;C:\Users\p.anvesh\source\repos\Debt-Pilot\build\core\debtpilot_core.dir\Debug\PortfolioRepaymentPlan.obj
+C:\Users\p.anvesh\source\repos\Debt-Pilot\core\src\PortfolioRepaymentSimulator.cpp;C:\Users\p.anvesh\source\repos\Debt-Pilot\build\core\debtpilot_core.dir\Debug\PortfolioRepaymentSimulator.obj
+C:\Users\p.anvesh\source\repos\Debt-Pilot\core\src\DebtMonthlySnapshot.cpp;C:\Users\p.anvesh\source\repos\Debt-Pilot\build\core\debtpilot_core.dir\Debug\DebtMonthlySnapshot.obj

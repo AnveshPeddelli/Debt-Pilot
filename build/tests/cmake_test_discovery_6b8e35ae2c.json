@@ -1,5 +1,5 @@
 {
-  "tests": 52,
+  "tests": 59,
   "name": "AllTests",
   "testsuites": [
     {
@@ -302,17 +302,58 @@
         {
           "name": "RejectsBudgetBelowTotalMinimumPayments",
           "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\PortfolioPaymentAllocatorTests.cpp",
-          "line": 74
+          "line": 71
         },
         {
           "name": "DoesNotAllocateMoreThanAmoundDue",
           "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\PortfolioPaymentAllocatorTests.cpp",
-          "line": 85
+          "line": 82
         },
         {
           "name": "SkipsFullyRepaidDebt",
           "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\PortfolioPaymentAllocatorTests.cpp",
-          "line": 100
+          "line": 97
+        }
+      ]
+    },
+    {
+      "name": "PortfolioRepaymentSimulatorTest",
+      "tests": 7,
+      "testsuite": [
+        {
+          "name": "EmptyPortfolioProducesEmptyPlan",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\PortfolioRepaymentSimulatorTests.cpp",
+          "line": 23
+        },
+        {
+          "name": "RepaysMultipleDebts",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\PortfolioRepaymentSimulatorTests.cpp",
+          "line": 36
+        },
+        {
+          "name": "AccumulatesInterestAcrossAllDebts",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\PortfolioRepaymentSimulatorTests.cpp",
+          "line": 56
+        },
+        {
+          "name": "SnowballClearSmallestDebtFirst",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\PortfolioRepaymentSimulatorTests.cpp",
+          "line": 70
+        },
+        {
+          "name": "AvalancheClearsHighestRateDebtFirst",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\PortfolioRepaymentSimulatorTests.cpp",
+          "line": 83
+        },
+        {
+          "name": "RejectDuplicateIds",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\PortfolioRepaymentSimulatorTests.cpp",
+          "line": 96
+        },
+        {
+          "name": "StopAtMaximumLimit",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\PortfolioRepaymentSimulatorTests.cpp",
+          "line": 107
         }
       ]
     }

@@ -12,6 +12,10 @@ add_library(debtpilot_core STATIC
     src/DebtPaymentAllocation.cpp
     src/PortfolioPaymentAllocation.cpp
     src/PortfolioPaymentAllocator.cpp
+    src/PortfolioMonthResult.cpp
+    src/PortfolioRepaymentPlan.cpp
+    src/PortfolioRepaymentSimulator.cpp
+    src/DebtMonthlySnapshot.cpp
 )
 
 target_include_directories(debtpilot_core PUBLIC

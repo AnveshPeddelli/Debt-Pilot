@@ -29,6 +29,8 @@ namespace debtpilot
             [[nodiscard]] Money minimumPayment() const noexcept;
             [[nodiscard]] std::optional<int> dueDay() const noexcept;
 
+            void updateOutstandingBalance(Money newBalance);
+
         private:
             std::string id_;
             std::string name_;
