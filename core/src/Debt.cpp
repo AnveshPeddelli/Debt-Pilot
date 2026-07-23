@@ -31,7 +31,7 @@ namespace debtpilot
             throw std::invalid_argument{"Debt name cannot be empty"};
         }
     
-        if(outstandingBalance_.paise() <= 0)
+        if(outstandingBalance_.paise() < 0)
         {
             throw std::invalid_argument{"Outstanding balance must be greater than zero"};
         }

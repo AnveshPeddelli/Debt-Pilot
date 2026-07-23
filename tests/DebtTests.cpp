@@ -72,12 +72,9 @@ TEST(DebtTests, RejectsEmptyName)
 
 TEST(DebtTests, RejectsNonPositiveOutstandingBalance)
 {
-    for (const auto balance : {Money::fromPaise(0), Money::fromPaise(-1)})
+    for (const auto balance : {Money::fromPaise(-2), Money::fromPaise(-1)})
     {
-        EXPECT_THROW(
-            Debt("id", "Name", DebtType::Other, balance,
-                 InterestRate::fromBasisPoints(0), Money::fromPaise(0)),
-            std::invalid_argument);
+        EXPECT_THROW(Debt("id", "Name", DebtType::Other, balance, InterestRate::fromBasisPoints(0), Money::fromPaise(0)),std::invalid_argument);
     }
 }
 

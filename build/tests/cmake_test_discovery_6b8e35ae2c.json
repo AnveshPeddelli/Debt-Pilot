@@ -1,5 +1,5 @@
 {
-  "tests": 46,
+  "tests": 52,
   "name": "AllTests",
   "testsuites": [
     {
@@ -111,17 +111,17 @@
         {
           "name": "RejectsNegativeMinimumPayment",
           "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\DebtTests.cpp",
-          "line": 84
+          "line": 81
         },
         {
           "name": "AcceptsDueDayBoundaries",
           "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\DebtTests.cpp",
-          "line": 92
+          "line": 89
         },
         {
           "name": "RejectsDueDayOutsideCalendarRange",
           "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\DebtTests.cpp",
-          "line": 98
+          "line": 95
         }
       ]
     },
@@ -277,6 +277,42 @@
           "name": "EmptyDebtCollectionProducesEmptyOrder",
           "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\DebtPrioritizerTests.cpp",
           "line": 83
+        }
+      ]
+    },
+    {
+      "name": "PortfolioPaymentAllocatorTest",
+      "tests": 6,
+      "testsuite": [
+        {
+          "name": "PaysMinimumPaymentToEveryActiveDebt",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\PortfolioPaymentAllocatorTests.cpp",
+          "line": 22
+        },
+        {
+          "name": "SnowballSendsExtraToLowestBalanceDept",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\PortfolioPaymentAllocatorTests.cpp",
+          "line": 39
+        },
+        {
+          "name": "AvalancheSendsExtraToHighestRateDebt",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\PortfolioPaymentAllocatorTests.cpp",
+          "line": 55
+        },
+        {
+          "name": "RejectsBudgetBelowTotalMinimumPayments",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\PortfolioPaymentAllocatorTests.cpp",
+          "line": 74
+        },
+        {
+          "name": "DoesNotAllocateMoreThanAmoundDue",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\PortfolioPaymentAllocatorTests.cpp",
+          "line": 85
+        },
+        {
+          "name": "SkipsFullyRepaidDebt",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\PortfolioPaymentAllocatorTests.cpp",
+          "line": 100
         }
       ]
     }

@@ -1,10 +1,10 @@
-Start testing: Jul 22 18:46 India Standard Time
+Start testing: Jul 23 14:36 India Standard Time
 ----------------------------------------------------------
-1/46 Testing: MoneyTests.DefaultValueIsZero
-1/46 Test: MoneyTests.DefaultValueIsZero
+1/52 Testing: MoneyTests.DefaultValueIsZero
+1/52 Test: MoneyTests.DefaultValueIsZero
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=MoneyTests.DefaultValueIsZero" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"MoneyTests.DefaultValueIsZero" start time: Jul 22 18:46 India Standard Time
+"MoneyTests.DefaultValueIsZero" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -14,24 +14,24 @@ Note: Google Test filter = MoneyTests.DefaultValueIsZero
 [----------] 1 test from MoneyTests
 [ RUN      ] MoneyTests.DefaultValueIsZero
 [       OK ] MoneyTests.DefaultValueIsZero (0 ms)
-[----------] 1 test from MoneyTests (1 ms total)
+[----------] 1 test from MoneyTests (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (3 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"MoneyTests.DefaultValueIsZero" end time: Jul 22 18:46 India Standard Time
+"MoneyTests.DefaultValueIsZero" end time: Jul 23 14:36 India Standard Time
 "MoneyTests.DefaultValueIsZero" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/46 Testing: MoneyTests.StoresPaise
-2/46 Test: MoneyTests.StoresPaise
+2/52 Testing: MoneyTests.StoresPaise
+2/52 Test: MoneyTests.StoresPaise
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=MoneyTests.StoresPaise" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"MoneyTests.StoresPaise" start time: Jul 22 18:46 India Standard Time
+"MoneyTests.StoresPaise" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -50,15 +50,15 @@ Note: Google Test filter = MoneyTests.StoresPaise
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"MoneyTests.StoresPaise" end time: Jul 22 18:46 India Standard Time
+"MoneyTests.StoresPaise" end time: Jul 23 14:36 India Standard Time
 "MoneyTests.StoresPaise" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-3/46 Testing: MoneyTests.StoresSigned64BitBoundaries
-3/46 Test: MoneyTests.StoresSigned64BitBoundaries
+3/52 Testing: MoneyTests.StoresSigned64BitBoundaries
+3/52 Test: MoneyTests.StoresSigned64BitBoundaries
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=MoneyTests.StoresSigned64BitBoundaries" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"MoneyTests.StoresSigned64BitBoundaries" start time: Jul 22 18:46 India Standard Time
+"MoneyTests.StoresSigned64BitBoundaries" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -77,15 +77,15 @@ Note: Google Test filter = MoneyTests.StoresSigned64BitBoundaries
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"MoneyTests.StoresSigned64BitBoundaries" end time: Jul 22 18:46 India Standard Time
+"MoneyTests.StoresSigned64BitBoundaries" end time: Jul 23 14:36 India Standard Time
 "MoneyTests.StoresSigned64BitBoundaries" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-4/46 Testing: MoneyTests.StoresNegativePaise
-4/46 Test: MoneyTests.StoresNegativePaise
+4/52 Testing: MoneyTests.StoresNegativePaise
+4/52 Test: MoneyTests.StoresNegativePaise
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=MoneyTests.StoresNegativePaise" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"MoneyTests.StoresNegativePaise" start time: Jul 22 18:46 India Standard Time
+"MoneyTests.StoresNegativePaise" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -104,15 +104,15 @@ Note: Google Test filter = MoneyTests.StoresNegativePaise
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"MoneyTests.StoresNegativePaise" end time: Jul 22 18:46 India Standard Time
+"MoneyTests.StoresNegativePaise" end time: Jul 23 14:36 India Standard Time
 "MoneyTests.StoresNegativePaise" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-5/46 Testing: MoneyTests.AddsAmounts
-5/46 Test: MoneyTests.AddsAmounts
+5/52 Testing: MoneyTests.AddsAmounts
+5/52 Test: MoneyTests.AddsAmounts
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=MoneyTests.AddsAmounts" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"MoneyTests.AddsAmounts" start time: Jul 22 18:46 India Standard Time
+"MoneyTests.AddsAmounts" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -131,15 +131,15 @@ Note: Google Test filter = MoneyTests.AddsAmounts
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"MoneyTests.AddsAmounts" end time: Jul 22 18:46 India Standard Time
+"MoneyTests.AddsAmounts" end time: Jul 23 14:36 India Standard Time
 "MoneyTests.AddsAmounts" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-6/46 Testing: MoneyTests.SubtractsAmounts
-6/46 Test: MoneyTests.SubtractsAmounts
+6/52 Testing: MoneyTests.SubtractsAmounts
+6/52 Test: MoneyTests.SubtractsAmounts
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=MoneyTests.SubtractsAmounts" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"MoneyTests.SubtractsAmounts" start time: Jul 22 18:46 India Standard Time
+"MoneyTests.SubtractsAmounts" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -155,18 +155,18 @@ Note: Google Test filter = MoneyTests.SubtractsAmounts
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"MoneyTests.SubtractsAmounts" end time: Jul 22 18:46 India Standard Time
+"MoneyTests.SubtractsAmounts" end time: Jul 23 14:36 India Standard Time
 "MoneyTests.SubtractsAmounts" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-7/46 Testing: MoneyTests.SupportsComparison
-7/46 Test: MoneyTests.SupportsComparison
+7/52 Testing: MoneyTests.SupportsComparison
+7/52 Test: MoneyTests.SupportsComparison
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=MoneyTests.SupportsComparison" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"MoneyTests.SupportsComparison" start time: Jul 22 18:46 India Standard Time
+"MoneyTests.SupportsComparison" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -182,18 +182,18 @@ Note: Google Test filter = MoneyTests.SupportsComparison
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"MoneyTests.SupportsComparison" end time: Jul 22 18:46 India Standard Time
+"MoneyTests.SupportsComparison" end time: Jul 23 14:36 India Standard Time
 "MoneyTests.SupportsComparison" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-8/46 Testing: InterestRateTests.ZeroRate
-8/46 Test: InterestRateTests.ZeroRate
+8/52 Testing: InterestRateTests.ZeroRate
+8/52 Test: InterestRateTests.ZeroRate
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=InterestRateTests.ZeroRate" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"InterestRateTests.ZeroRate" start time: Jul 22 18:46 India Standard Time
+"InterestRateTests.ZeroRate" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -209,18 +209,18 @@ Note: Google Test filter = InterestRateTests.ZeroRate
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"InterestRateTests.ZeroRate" end time: Jul 22 18:46 India Standard Time
+"InterestRateTests.ZeroRate" end time: Jul 23 14:36 India Standard Time
 "InterestRateTests.ZeroRate" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-9/46 Testing: InterestRateTests.PositiveRate
-9/46 Test: InterestRateTests.PositiveRate
+9/52 Testing: InterestRateTests.PositiveRate
+9/52 Test: InterestRateTests.PositiveRate
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=InterestRateTests.PositiveRate" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"InterestRateTests.PositiveRate" start time: Jul 22 18:46 India Standard Time
+"InterestRateTests.PositiveRate" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -239,15 +239,15 @@ Note: Google Test filter = InterestRateTests.PositiveRate
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"InterestRateTests.PositiveRate" end time: Jul 22 18:46 India Standard Time
+"InterestRateTests.PositiveRate" end time: Jul 23 14:36 India Standard Time
 "InterestRateTests.PositiveRate" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-10/46 Testing: InterestRateTests.RejectsNegativeRate
-10/46 Test: InterestRateTests.RejectsNegativeRate
+10/52 Testing: InterestRateTests.RejectsNegativeRate
+10/52 Test: InterestRateTests.RejectsNegativeRate
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=InterestRateTests.RejectsNegativeRate" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"InterestRateTests.RejectsNegativeRate" start time: Jul 22 18:46 India Standard Time
+"InterestRateTests.RejectsNegativeRate" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -256,25 +256,25 @@ Note: Google Test filter = InterestRateTests.RejectsNegativeRate
 [----------] Global test environment set-up.
 [----------] 1 test from InterestRateTests
 [ RUN      ] InterestRateTests.RejectsNegativeRate
-[       OK ] InterestRateTests.RejectsNegativeRate (1 ms)
-[----------] 1 test from InterestRateTests (1 ms total)
+[       OK ] InterestRateTests.RejectsNegativeRate (0 ms)
+[----------] 1 test from InterestRateTests (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
+[==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"InterestRateTests.RejectsNegativeRate" end time: Jul 22 18:46 India Standard Time
+"InterestRateTests.RejectsNegativeRate" end time: Jul 23 14:36 India Standard Time
 "InterestRateTests.RejectsNegativeRate" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-11/46 Testing: InterestRateTests.StoresIntegerBoundary
-11/46 Test: InterestRateTests.StoresIntegerBoundary
+11/52 Testing: InterestRateTests.StoresIntegerBoundary
+11/52 Test: InterestRateTests.StoresIntegerBoundary
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=InterestRateTests.StoresIntegerBoundary" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"InterestRateTests.StoresIntegerBoundary" start time: Jul 22 18:46 India Standard Time
+"InterestRateTests.StoresIntegerBoundary" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -293,15 +293,15 @@ Note: Google Test filter = InterestRateTests.StoresIntegerBoundary
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"InterestRateTests.StoresIntegerBoundary" end time: Jul 22 18:46 India Standard Time
+"InterestRateTests.StoresIntegerBoundary" end time: Jul 23 14:36 India Standard Time
 "InterestRateTests.StoresIntegerBoundary" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-12/46 Testing: InterestRateTests.SupportsComparison
-12/46 Test: InterestRateTests.SupportsComparison
+12/52 Testing: InterestRateTests.SupportsComparison
+12/52 Test: InterestRateTests.SupportsComparison
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=InterestRateTests.SupportsComparison" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"InterestRateTests.SupportsComparison" start time: Jul 22 18:46 India Standard Time
+"InterestRateTests.SupportsComparison" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -320,15 +320,15 @@ Note: Google Test filter = InterestRateTests.SupportsComparison
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"InterestRateTests.SupportsComparison" end time: Jul 22 18:46 India Standard Time
+"InterestRateTests.SupportsComparison" end time: Jul 23 14:36 India Standard Time
 "InterestRateTests.SupportsComparison" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-13/46 Testing: DebtTests.ConstructsValidDebt
-13/46 Test: DebtTests.ConstructsValidDebt
+13/52 Testing: DebtTests.ConstructsValidDebt
+13/52 Test: DebtTests.ConstructsValidDebt
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=DebtTests.ConstructsValidDebt" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"DebtTests.ConstructsValidDebt" start time: Jul 22 18:46 India Standard Time
+"DebtTests.ConstructsValidDebt" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -347,15 +347,15 @@ Note: Google Test filter = DebtTests.ConstructsValidDebt
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"DebtTests.ConstructsValidDebt" end time: Jul 22 18:46 India Standard Time
+"DebtTests.ConstructsValidDebt" end time: Jul 23 14:36 India Standard Time
 "DebtTests.ConstructsValidDebt" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-14/46 Testing: DebtTests.AllowsNoDueDay
-14/46 Test: DebtTests.AllowsNoDueDay
+14/52 Testing: DebtTests.AllowsNoDueDay
+14/52 Test: DebtTests.AllowsNoDueDay
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=DebtTests.AllowsNoDueDay" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"DebtTests.AllowsNoDueDay" start time: Jul 22 18:46 India Standard Time
+"DebtTests.AllowsNoDueDay" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -374,15 +374,15 @@ Note: Google Test filter = DebtTests.AllowsNoDueDay
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"DebtTests.AllowsNoDueDay" end time: Jul 22 18:46 India Standard Time
+"DebtTests.AllowsNoDueDay" end time: Jul 23 14:36 India Standard Time
 "DebtTests.AllowsNoDueDay" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-15/46 Testing: DebtTests.AllowsZeroInterestAndMinimumPayment
-15/46 Test: DebtTests.AllowsZeroInterestAndMinimumPayment
+15/52 Testing: DebtTests.AllowsZeroInterestAndMinimumPayment
+15/52 Test: DebtTests.AllowsZeroInterestAndMinimumPayment
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=DebtTests.AllowsZeroInterestAndMinimumPayment" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"DebtTests.AllowsZeroInterestAndMinimumPayment" start time: Jul 22 18:46 India Standard Time
+"DebtTests.AllowsZeroInterestAndMinimumPayment" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -401,15 +401,15 @@ Note: Google Test filter = DebtTests.AllowsZeroInterestAndMinimumPayment
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"DebtTests.AllowsZeroInterestAndMinimumPayment" end time: Jul 22 18:46 India Standard Time
+"DebtTests.AllowsZeroInterestAndMinimumPayment" end time: Jul 23 14:36 India Standard Time
 "DebtTests.AllowsZeroInterestAndMinimumPayment" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-16/46 Testing: DebtTests.RejectsEmptyId
-16/46 Test: DebtTests.RejectsEmptyId
+16/52 Testing: DebtTests.RejectsEmptyId
+16/52 Test: DebtTests.RejectsEmptyId
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=DebtTests.RejectsEmptyId" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"DebtTests.RejectsEmptyId" start time: Jul 22 18:46 India Standard Time
+"DebtTests.RejectsEmptyId" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -428,15 +428,15 @@ Note: Google Test filter = DebtTests.RejectsEmptyId
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"DebtTests.RejectsEmptyId" end time: Jul 22 18:46 India Standard Time
+"DebtTests.RejectsEmptyId" end time: Jul 23 14:36 India Standard Time
 "DebtTests.RejectsEmptyId" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-17/46 Testing: DebtTests.RejectsEmptyName
-17/46 Test: DebtTests.RejectsEmptyName
+17/52 Testing: DebtTests.RejectsEmptyName
+17/52 Test: DebtTests.RejectsEmptyName
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=DebtTests.RejectsEmptyName" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"DebtTests.RejectsEmptyName" start time: Jul 22 18:46 India Standard Time
+"DebtTests.RejectsEmptyName" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -452,18 +452,18 @@ Note: Google Test filter = DebtTests.RejectsEmptyName
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"DebtTests.RejectsEmptyName" end time: Jul 22 18:46 India Standard Time
+"DebtTests.RejectsEmptyName" end time: Jul 23 14:36 India Standard Time
 "DebtTests.RejectsEmptyName" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-18/46 Testing: DebtTests.RejectsNonPositiveOutstandingBalance
-18/46 Test: DebtTests.RejectsNonPositiveOutstandingBalance
+18/52 Testing: DebtTests.RejectsNonPositiveOutstandingBalance
+18/52 Test: DebtTests.RejectsNonPositiveOutstandingBalance
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=DebtTests.RejectsNonPositiveOutstandingBalance" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"DebtTests.RejectsNonPositiveOutstandingBalance" start time: Jul 22 18:46 India Standard Time
+"DebtTests.RejectsNonPositiveOutstandingBalance" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -479,18 +479,18 @@ Note: Google Test filter = DebtTests.RejectsNonPositiveOutstandingBalance
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"DebtTests.RejectsNonPositiveOutstandingBalance" end time: Jul 22 18:46 India Standard Time
+"DebtTests.RejectsNonPositiveOutstandingBalance" end time: Jul 23 14:36 India Standard Time
 "DebtTests.RejectsNonPositiveOutstandingBalance" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-19/46 Testing: DebtTests.RejectsNegativeMinimumPayment
-19/46 Test: DebtTests.RejectsNegativeMinimumPayment
+19/52 Testing: DebtTests.RejectsNegativeMinimumPayment
+19/52 Test: DebtTests.RejectsNegativeMinimumPayment
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=DebtTests.RejectsNegativeMinimumPayment" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"DebtTests.RejectsNegativeMinimumPayment" start time: Jul 22 18:46 India Standard Time
+"DebtTests.RejectsNegativeMinimumPayment" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -509,15 +509,15 @@ Note: Google Test filter = DebtTests.RejectsNegativeMinimumPayment
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"DebtTests.RejectsNegativeMinimumPayment" end time: Jul 22 18:46 India Standard Time
+"DebtTests.RejectsNegativeMinimumPayment" end time: Jul 23 14:36 India Standard Time
 "DebtTests.RejectsNegativeMinimumPayment" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-20/46 Testing: DebtTests.AcceptsDueDayBoundaries
-20/46 Test: DebtTests.AcceptsDueDayBoundaries
+20/52 Testing: DebtTests.AcceptsDueDayBoundaries
+20/52 Test: DebtTests.AcceptsDueDayBoundaries
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=DebtTests.AcceptsDueDayBoundaries" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"DebtTests.AcceptsDueDayBoundaries" start time: Jul 22 18:46 India Standard Time
+"DebtTests.AcceptsDueDayBoundaries" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -533,18 +533,18 @@ Note: Google Test filter = DebtTests.AcceptsDueDayBoundaries
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"DebtTests.AcceptsDueDayBoundaries" end time: Jul 22 18:46 India Standard Time
+"DebtTests.AcceptsDueDayBoundaries" end time: Jul 23 14:36 India Standard Time
 "DebtTests.AcceptsDueDayBoundaries" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-21/46 Testing: DebtTests.RejectsDueDayOutsideCalendarRange
-21/46 Test: DebtTests.RejectsDueDayOutsideCalendarRange
+21/52 Testing: DebtTests.RejectsDueDayOutsideCalendarRange
+21/52 Test: DebtTests.RejectsDueDayOutsideCalendarRange
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=DebtTests.RejectsDueDayOutsideCalendarRange" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"DebtTests.RejectsDueDayOutsideCalendarRange" start time: Jul 22 18:46 India Standard Time
+"DebtTests.RejectsDueDayOutsideCalendarRange" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -563,15 +563,15 @@ Note: Google Test filter = DebtTests.RejectsDueDayOutsideCalendarRange
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"DebtTests.RejectsDueDayOutsideCalendarRange" end time: Jul 22 18:46 India Standard Time
+"DebtTests.RejectsDueDayOutsideCalendarRange" end time: Jul 23 14:36 India Standard Time
 "DebtTests.RejectsDueDayOutsideCalendarRange" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-22/46 Testing: MonthlyInterestCalculator.ZeroBalanceProducesZeroInterest
-22/46 Test: MonthlyInterestCalculator.ZeroBalanceProducesZeroInterest
+22/52 Testing: MonthlyInterestCalculator.ZeroBalanceProducesZeroInterest
+22/52 Test: MonthlyInterestCalculator.ZeroBalanceProducesZeroInterest
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=MonthlyInterestCalculator.ZeroBalanceProducesZeroInterest" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"MonthlyInterestCalculator.ZeroBalanceProducesZeroInterest" start time: Jul 22 18:46 India Standard Time
+"MonthlyInterestCalculator.ZeroBalanceProducesZeroInterest" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -590,15 +590,15 @@ Note: Google Test filter = MonthlyInterestCalculator.ZeroBalanceProducesZeroInte
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"MonthlyInterestCalculator.ZeroBalanceProducesZeroInterest" end time: Jul 22 18:46 India Standard Time
+"MonthlyInterestCalculator.ZeroBalanceProducesZeroInterest" end time: Jul 23 14:36 India Standard Time
 "MonthlyInterestCalculator.ZeroBalanceProducesZeroInterest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-23/46 Testing: MonthlyInterestCalculator.CalculatesEighteenPercentAnnualInterest
-23/46 Test: MonthlyInterestCalculator.CalculatesEighteenPercentAnnualInterest
+23/52 Testing: MonthlyInterestCalculator.CalculatesEighteenPercentAnnualInterest
+23/52 Test: MonthlyInterestCalculator.CalculatesEighteenPercentAnnualInterest
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=MonthlyInterestCalculator.CalculatesEighteenPercentAnnualInterest" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"MonthlyInterestCalculator.CalculatesEighteenPercentAnnualInterest" start time: Jul 22 18:46 India Standard Time
+"MonthlyInterestCalculator.CalculatesEighteenPercentAnnualInterest" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -617,15 +617,15 @@ Note: Google Test filter = MonthlyInterestCalculator.CalculatesEighteenPercentAn
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"MonthlyInterestCalculator.CalculatesEighteenPercentAnnualInterest" end time: Jul 22 18:46 India Standard Time
+"MonthlyInterestCalculator.CalculatesEighteenPercentAnnualInterest" end time: Jul 23 14:36 India Standard Time
 "MonthlyInterestCalculator.CalculatesEighteenPercentAnnualInterest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-24/46 Testing: MonthlyInterestCalculator.RoundsHalfPaiseUp
-24/46 Test: MonthlyInterestCalculator.RoundsHalfPaiseUp
+24/52 Testing: MonthlyInterestCalculator.RoundsHalfPaiseUp
+24/52 Test: MonthlyInterestCalculator.RoundsHalfPaiseUp
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=MonthlyInterestCalculator.RoundsHalfPaiseUp" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"MonthlyInterestCalculator.RoundsHalfPaiseUp" start time: Jul 22 18:46 India Standard Time
+"MonthlyInterestCalculator.RoundsHalfPaiseUp" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -644,15 +644,15 @@ Note: Google Test filter = MonthlyInterestCalculator.RoundsHalfPaiseUp
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"MonthlyInterestCalculator.RoundsHalfPaiseUp" end time: Jul 22 18:46 India Standard Time
+"MonthlyInterestCalculator.RoundsHalfPaiseUp" end time: Jul 23 14:36 India Standard Time
 "MonthlyInterestCalculator.RoundsHalfPaiseUp" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-25/46 Testing: MonthlyInterestCalculator.RejectsNegativeBalance
-25/46 Test: MonthlyInterestCalculator.RejectsNegativeBalance
+25/52 Testing: MonthlyInterestCalculator.RejectsNegativeBalance
+25/52 Test: MonthlyInterestCalculator.RejectsNegativeBalance
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=MonthlyInterestCalculator.RejectsNegativeBalance" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"MonthlyInterestCalculator.RejectsNegativeBalance" start time: Jul 22 18:46 India Standard Time
+"MonthlyInterestCalculator.RejectsNegativeBalance" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -671,15 +671,15 @@ Note: Google Test filter = MonthlyInterestCalculator.RejectsNegativeBalance
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"MonthlyInterestCalculator.RejectsNegativeBalance" end time: Jul 22 18:46 India Standard Time
+"MonthlyInterestCalculator.RejectsNegativeBalance" end time: Jul 23 14:36 India Standard Time
 "MonthlyInterestCalculator.RejectsNegativeBalance" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-26/46 Testing: MonthlyInterestCalcularor.ZeroRateProduceZeroInterest
-26/46 Test: MonthlyInterestCalcularor.ZeroRateProduceZeroInterest
+26/52 Testing: MonthlyInterestCalcularor.ZeroRateProduceZeroInterest
+26/52 Test: MonthlyInterestCalcularor.ZeroRateProduceZeroInterest
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=MonthlyInterestCalcularor.ZeroRateProduceZeroInterest" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"MonthlyInterestCalcularor.ZeroRateProduceZeroInterest" start time: Jul 22 18:46 India Standard Time
+"MonthlyInterestCalcularor.ZeroRateProduceZeroInterest" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -698,15 +698,15 @@ Note: Google Test filter = MonthlyInterestCalcularor.ZeroRateProduceZeroInterest
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"MonthlyInterestCalcularor.ZeroRateProduceZeroInterest" end time: Jul 22 18:46 India Standard Time
+"MonthlyInterestCalcularor.ZeroRateProduceZeroInterest" end time: Jul 23 14:36 India Standard Time
 "MonthlyInterestCalcularor.ZeroRateProduceZeroInterest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-27/46 Testing: MonthlyInterestCalcularor.CalculatesTwelvePercentAnnualInterest
-27/46 Test: MonthlyInterestCalcularor.CalculatesTwelvePercentAnnualInterest
+27/52 Testing: MonthlyInterestCalcularor.CalculatesTwelvePercentAnnualInterest
+27/52 Test: MonthlyInterestCalcularor.CalculatesTwelvePercentAnnualInterest
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=MonthlyInterestCalcularor.CalculatesTwelvePercentAnnualInterest" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"MonthlyInterestCalcularor.CalculatesTwelvePercentAnnualInterest" start time: Jul 22 18:46 India Standard Time
+"MonthlyInterestCalcularor.CalculatesTwelvePercentAnnualInterest" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -725,15 +725,15 @@ Note: Google Test filter = MonthlyInterestCalcularor.CalculatesTwelvePercentAnnu
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"MonthlyInterestCalcularor.CalculatesTwelvePercentAnnualInterest" end time: Jul 22 18:46 India Standard Time
+"MonthlyInterestCalcularor.CalculatesTwelvePercentAnnualInterest" end time: Jul 23 14:36 India Standard Time
 "MonthlyInterestCalcularor.CalculatesTwelvePercentAnnualInterest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-28/46 Testing: MonthlyRepaymentCalculatorTest.AppliesInterestAndPayment
-28/46 Test: MonthlyRepaymentCalculatorTest.AppliesInterestAndPayment
+28/52 Testing: MonthlyRepaymentCalculatorTest.AppliesInterestAndPayment
+28/52 Test: MonthlyRepaymentCalculatorTest.AppliesInterestAndPayment
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=MonthlyRepaymentCalculatorTest.AppliesInterestAndPayment" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"MonthlyRepaymentCalculatorTest.AppliesInterestAndPayment" start time: Jul 22 18:46 India Standard Time
+"MonthlyRepaymentCalculatorTest.AppliesInterestAndPayment" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -752,15 +752,15 @@ Note: Google Test filter = MonthlyRepaymentCalculatorTest.AppliesInterestAndPaym
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"MonthlyRepaymentCalculatorTest.AppliesInterestAndPayment" end time: Jul 22 18:46 India Standard Time
+"MonthlyRepaymentCalculatorTest.AppliesInterestAndPayment" end time: Jul 23 14:36 India Standard Time
 "MonthlyRepaymentCalculatorTest.AppliesInterestAndPayment" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-29/46 Testing: MonthlyRepaymentCalculatorTest.AppliesEntirePaymentToPrincipalAtZeroInterest
-29/46 Test: MonthlyRepaymentCalculatorTest.AppliesEntirePaymentToPrincipalAtZeroInterest
+29/52 Testing: MonthlyRepaymentCalculatorTest.AppliesEntirePaymentToPrincipalAtZeroInterest
+29/52 Test: MonthlyRepaymentCalculatorTest.AppliesEntirePaymentToPrincipalAtZeroInterest
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=MonthlyRepaymentCalculatorTest.AppliesEntirePaymentToPrincipalAtZeroInterest" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"MonthlyRepaymentCalculatorTest.AppliesEntirePaymentToPrincipalAtZeroInterest" start time: Jul 22 18:46 India Standard Time
+"MonthlyRepaymentCalculatorTest.AppliesEntirePaymentToPrincipalAtZeroInterest" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -779,15 +779,15 @@ Note: Google Test filter = MonthlyRepaymentCalculatorTest.AppliesEntirePaymentTo
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"MonthlyRepaymentCalculatorTest.AppliesEntirePaymentToPrincipalAtZeroInterest" end time: Jul 22 18:46 India Standard Time
+"MonthlyRepaymentCalculatorTest.AppliesEntirePaymentToPrincipalAtZeroInterest" end time: Jul 23 14:36 India Standard Time
 "MonthlyRepaymentCalculatorTest.AppliesEntirePaymentToPrincipalAtZeroInterest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-30/46 Testing: MonthlyRepaymentCalculatorTest.LimitsFinalPaymentToAmountDue
-30/46 Test: MonthlyRepaymentCalculatorTest.LimitsFinalPaymentToAmountDue
+30/52 Testing: MonthlyRepaymentCalculatorTest.LimitsFinalPaymentToAmountDue
+30/52 Test: MonthlyRepaymentCalculatorTest.LimitsFinalPaymentToAmountDue
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=MonthlyRepaymentCalculatorTest.LimitsFinalPaymentToAmountDue" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"MonthlyRepaymentCalculatorTest.LimitsFinalPaymentToAmountDue" start time: Jul 22 18:46 India Standard Time
+"MonthlyRepaymentCalculatorTest.LimitsFinalPaymentToAmountDue" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -806,15 +806,15 @@ Note: Google Test filter = MonthlyRepaymentCalculatorTest.LimitsFinalPaymentToAm
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"MonthlyRepaymentCalculatorTest.LimitsFinalPaymentToAmountDue" end time: Jul 22 18:46 India Standard Time
+"MonthlyRepaymentCalculatorTest.LimitsFinalPaymentToAmountDue" end time: Jul 23 14:36 India Standard Time
 "MonthlyRepaymentCalculatorTest.LimitsFinalPaymentToAmountDue" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-31/46 Testing: MonthlyRepaymentCalculatorTest.BalanceIncreasesWhenPaymentIsBelowInterest
-31/46 Test: MonthlyRepaymentCalculatorTest.BalanceIncreasesWhenPaymentIsBelowInterest
+31/52 Testing: MonthlyRepaymentCalculatorTest.BalanceIncreasesWhenPaymentIsBelowInterest
+31/52 Test: MonthlyRepaymentCalculatorTest.BalanceIncreasesWhenPaymentIsBelowInterest
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=MonthlyRepaymentCalculatorTest.BalanceIncreasesWhenPaymentIsBelowInterest" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"MonthlyRepaymentCalculatorTest.BalanceIncreasesWhenPaymentIsBelowInterest" start time: Jul 22 18:46 India Standard Time
+"MonthlyRepaymentCalculatorTest.BalanceIncreasesWhenPaymentIsBelowInterest" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -833,15 +833,15 @@ Note: Google Test filter = MonthlyRepaymentCalculatorTest.BalanceIncreasesWhenPa
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"MonthlyRepaymentCalculatorTest.BalanceIncreasesWhenPaymentIsBelowInterest" end time: Jul 22 18:46 India Standard Time
+"MonthlyRepaymentCalculatorTest.BalanceIncreasesWhenPaymentIsBelowInterest" end time: Jul 23 14:36 India Standard Time
 "MonthlyRepaymentCalculatorTest.BalanceIncreasesWhenPaymentIsBelowInterest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-32/46 Testing: MonthlyRepaymentCalculatorTest.ZeroBalanceRequiresNoPayment
-32/46 Test: MonthlyRepaymentCalculatorTest.ZeroBalanceRequiresNoPayment
+32/52 Testing: MonthlyRepaymentCalculatorTest.ZeroBalanceRequiresNoPayment
+32/52 Test: MonthlyRepaymentCalculatorTest.ZeroBalanceRequiresNoPayment
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=MonthlyRepaymentCalculatorTest.ZeroBalanceRequiresNoPayment" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"MonthlyRepaymentCalculatorTest.ZeroBalanceRequiresNoPayment" start time: Jul 22 18:46 India Standard Time
+"MonthlyRepaymentCalculatorTest.ZeroBalanceRequiresNoPayment" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -860,15 +860,15 @@ Note: Google Test filter = MonthlyRepaymentCalculatorTest.ZeroBalanceRequiresNoP
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"MonthlyRepaymentCalculatorTest.ZeroBalanceRequiresNoPayment" end time: Jul 22 18:46 India Standard Time
+"MonthlyRepaymentCalculatorTest.ZeroBalanceRequiresNoPayment" end time: Jul 23 14:36 India Standard Time
 "MonthlyRepaymentCalculatorTest.ZeroBalanceRequiresNoPayment" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-33/46 Testing: MonthlyRepaymentCalculatorTest.RejectsNegativePayment
-33/46 Test: MonthlyRepaymentCalculatorTest.RejectsNegativePayment
+33/52 Testing: MonthlyRepaymentCalculatorTest.RejectsNegativePayment
+33/52 Test: MonthlyRepaymentCalculatorTest.RejectsNegativePayment
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=MonthlyRepaymentCalculatorTest.RejectsNegativePayment" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"MonthlyRepaymentCalculatorTest.RejectsNegativePayment" start time: Jul 22 18:46 India Standard Time
+"MonthlyRepaymentCalculatorTest.RejectsNegativePayment" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -887,15 +887,15 @@ Note: Google Test filter = MonthlyRepaymentCalculatorTest.RejectsNegativePayment
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"MonthlyRepaymentCalculatorTest.RejectsNegativePayment" end time: Jul 22 18:46 India Standard Time
+"MonthlyRepaymentCalculatorTest.RejectsNegativePayment" end time: Jul 23 14:36 India Standard Time
 "MonthlyRepaymentCalculatorTest.RejectsNegativePayment" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-34/46 Testing: MonthlyRepaymentCalculatorTest.RejectNegativeOpeningBalance
-34/46 Test: MonthlyRepaymentCalculatorTest.RejectNegativeOpeningBalance
+34/52 Testing: MonthlyRepaymentCalculatorTest.RejectNegativeOpeningBalance
+34/52 Test: MonthlyRepaymentCalculatorTest.RejectNegativeOpeningBalance
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=MonthlyRepaymentCalculatorTest.RejectNegativeOpeningBalance" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"MonthlyRepaymentCalculatorTest.RejectNegativeOpeningBalance" start time: Jul 22 18:46 India Standard Time
+"MonthlyRepaymentCalculatorTest.RejectNegativeOpeningBalance" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -911,18 +911,18 @@ Note: Google Test filter = MonthlyRepaymentCalculatorTest.RejectNegativeOpeningB
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"MonthlyRepaymentCalculatorTest.RejectNegativeOpeningBalance" end time: Jul 22 18:46 India Standard Time
+"MonthlyRepaymentCalculatorTest.RejectNegativeOpeningBalance" end time: Jul 23 14:36 India Standard Time
 "MonthlyRepaymentCalculatorTest.RejectNegativeOpeningBalance" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-35/46 Testing: RepaymentScheduleGeneratorTest.GenerateScheduleUntilDebtIsRepaid
-35/46 Test: RepaymentScheduleGeneratorTest.GenerateScheduleUntilDebtIsRepaid
+35/52 Testing: RepaymentScheduleGeneratorTest.GenerateScheduleUntilDebtIsRepaid
+35/52 Test: RepaymentScheduleGeneratorTest.GenerateScheduleUntilDebtIsRepaid
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=RepaymentScheduleGeneratorTest.GenerateScheduleUntilDebtIsRepaid" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"RepaymentScheduleGeneratorTest.GenerateScheduleUntilDebtIsRepaid" start time: Jul 22 18:46 India Standard Time
+"RepaymentScheduleGeneratorTest.GenerateScheduleUntilDebtIsRepaid" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -941,15 +941,15 @@ Note: Google Test filter = RepaymentScheduleGeneratorTest.GenerateScheduleUntilD
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"RepaymentScheduleGeneratorTest.GenerateScheduleUntilDebtIsRepaid" end time: Jul 22 18:46 India Standard Time
+"RepaymentScheduleGeneratorTest.GenerateScheduleUntilDebtIsRepaid" end time: Jul 23 14:36 India Standard Time
 "RepaymentScheduleGeneratorTest.GenerateScheduleUntilDebtIsRepaid" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-36/46 Testing: RepaymentScheduleGeneratorTest.AdjustsFinalPaymentToRemainingBalance
-36/46 Test: RepaymentScheduleGeneratorTest.AdjustsFinalPaymentToRemainingBalance
+36/52 Testing: RepaymentScheduleGeneratorTest.AdjustsFinalPaymentToRemainingBalance
+36/52 Test: RepaymentScheduleGeneratorTest.AdjustsFinalPaymentToRemainingBalance
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=RepaymentScheduleGeneratorTest.AdjustsFinalPaymentToRemainingBalance" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"RepaymentScheduleGeneratorTest.AdjustsFinalPaymentToRemainingBalance" start time: Jul 22 18:46 India Standard Time
+"RepaymentScheduleGeneratorTest.AdjustsFinalPaymentToRemainingBalance" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -968,15 +968,15 @@ Note: Google Test filter = RepaymentScheduleGeneratorTest.AdjustsFinalPaymentToR
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"RepaymentScheduleGeneratorTest.AdjustsFinalPaymentToRemainingBalance" end time: Jul 22 18:46 India Standard Time
+"RepaymentScheduleGeneratorTest.AdjustsFinalPaymentToRemainingBalance" end time: Jul 23 14:36 India Standard Time
 "RepaymentScheduleGeneratorTest.AdjustsFinalPaymentToRemainingBalance" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-37/46 Testing: RepaymentScheduleGeneratorTest.AccumulatesTotalInterest
-37/46 Test: RepaymentScheduleGeneratorTest.AccumulatesTotalInterest
+37/52 Testing: RepaymentScheduleGeneratorTest.AccumulatesTotalInterest
+37/52 Test: RepaymentScheduleGeneratorTest.AccumulatesTotalInterest
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=RepaymentScheduleGeneratorTest.AccumulatesTotalInterest" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"RepaymentScheduleGeneratorTest.AccumulatesTotalInterest" start time: Jul 22 18:46 India Standard Time
+"RepaymentScheduleGeneratorTest.AccumulatesTotalInterest" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -995,15 +995,15 @@ Note: Google Test filter = RepaymentScheduleGeneratorTest.AccumulatesTotalIntere
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"RepaymentScheduleGeneratorTest.AccumulatesTotalInterest" end time: Jul 22 18:46 India Standard Time
+"RepaymentScheduleGeneratorTest.AccumulatesTotalInterest" end time: Jul 23 14:36 India Standard Time
 "RepaymentScheduleGeneratorTest.AccumulatesTotalInterest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-38/46 Testing: RepaymentScheduleGeneratorTest.RejectsPaymentThatDoesNotReduceBalance
-38/46 Test: RepaymentScheduleGeneratorTest.RejectsPaymentThatDoesNotReduceBalance
+38/52 Testing: RepaymentScheduleGeneratorTest.RejectsPaymentThatDoesNotReduceBalance
+38/52 Test: RepaymentScheduleGeneratorTest.RejectsPaymentThatDoesNotReduceBalance
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=RepaymentScheduleGeneratorTest.RejectsPaymentThatDoesNotReduceBalance" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"RepaymentScheduleGeneratorTest.RejectsPaymentThatDoesNotReduceBalance" start time: Jul 22 18:46 India Standard Time
+"RepaymentScheduleGeneratorTest.RejectsPaymentThatDoesNotReduceBalance" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -1022,15 +1022,15 @@ Note: Google Test filter = RepaymentScheduleGeneratorTest.RejectsPaymentThatDoes
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"RepaymentScheduleGeneratorTest.RejectsPaymentThatDoesNotReduceBalance" end time: Jul 22 18:46 India Standard Time
+"RepaymentScheduleGeneratorTest.RejectsPaymentThatDoesNotReduceBalance" end time: Jul 23 14:36 India Standard Time
 "RepaymentScheduleGeneratorTest.RejectsPaymentThatDoesNotReduceBalance" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-39/46 Testing: RepaymentScheduleGeneratorTest.RejectZeroPaymentForOutstandingDebt
-39/46 Test: RepaymentScheduleGeneratorTest.RejectZeroPaymentForOutstandingDebt
+39/52 Testing: RepaymentScheduleGeneratorTest.RejectZeroPaymentForOutstandingDebt
+39/52 Test: RepaymentScheduleGeneratorTest.RejectZeroPaymentForOutstandingDebt
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=RepaymentScheduleGeneratorTest.RejectZeroPaymentForOutstandingDebt" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"RepaymentScheduleGeneratorTest.RejectZeroPaymentForOutstandingDebt" start time: Jul 22 18:46 India Standard Time
+"RepaymentScheduleGeneratorTest.RejectZeroPaymentForOutstandingDebt" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -1049,15 +1049,15 @@ Note: Google Test filter = RepaymentScheduleGeneratorTest.RejectZeroPaymentForOu
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"RepaymentScheduleGeneratorTest.RejectZeroPaymentForOutstandingDebt" end time: Jul 22 18:46 India Standard Time
+"RepaymentScheduleGeneratorTest.RejectZeroPaymentForOutstandingDebt" end time: Jul 23 14:36 India Standard Time
 "RepaymentScheduleGeneratorTest.RejectZeroPaymentForOutstandingDebt" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-40/46 Testing: RepaymentScheduleGeneratorTest.ReturnEmptyScheduleForZeroBalance
-40/46 Test: RepaymentScheduleGeneratorTest.ReturnEmptyScheduleForZeroBalance
+40/52 Testing: RepaymentScheduleGeneratorTest.ReturnEmptyScheduleForZeroBalance
+40/52 Test: RepaymentScheduleGeneratorTest.ReturnEmptyScheduleForZeroBalance
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=RepaymentScheduleGeneratorTest.ReturnEmptyScheduleForZeroBalance" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"RepaymentScheduleGeneratorTest.ReturnEmptyScheduleForZeroBalance" start time: Jul 22 18:46 India Standard Time
+"RepaymentScheduleGeneratorTest.ReturnEmptyScheduleForZeroBalance" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -1076,15 +1076,15 @@ Note: Google Test filter = RepaymentScheduleGeneratorTest.ReturnEmptyScheduleFor
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"RepaymentScheduleGeneratorTest.ReturnEmptyScheduleForZeroBalance" end time: Jul 22 18:46 India Standard Time
+"RepaymentScheduleGeneratorTest.ReturnEmptyScheduleForZeroBalance" end time: Jul 23 14:36 India Standard Time
 "RepaymentScheduleGeneratorTest.ReturnEmptyScheduleForZeroBalance" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-41/46 Testing: RepaymentScheduleGeneratorTest.StopsAtMaximumMonthLimit
-41/46 Test: RepaymentScheduleGeneratorTest.StopsAtMaximumMonthLimit
+41/52 Testing: RepaymentScheduleGeneratorTest.StopsAtMaximumMonthLimit
+41/52 Test: RepaymentScheduleGeneratorTest.StopsAtMaximumMonthLimit
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=RepaymentScheduleGeneratorTest.StopsAtMaximumMonthLimit" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"RepaymentScheduleGeneratorTest.StopsAtMaximumMonthLimit" start time: Jul 22 18:46 India Standard Time
+"RepaymentScheduleGeneratorTest.StopsAtMaximumMonthLimit" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -1103,15 +1103,15 @@ Note: Google Test filter = RepaymentScheduleGeneratorTest.StopsAtMaximumMonthLim
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"RepaymentScheduleGeneratorTest.StopsAtMaximumMonthLimit" end time: Jul 22 18:46 India Standard Time
+"RepaymentScheduleGeneratorTest.StopsAtMaximumMonthLimit" end time: Jul 23 14:36 India Standard Time
 "RepaymentScheduleGeneratorTest.StopsAtMaximumMonthLimit" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-42/46 Testing: DebtPrioritizerTest.SnowballOrdersLowestBalanceFirst
-42/46 Test: DebtPrioritizerTest.SnowballOrdersLowestBalanceFirst
+42/52 Testing: DebtPrioritizerTest.SnowballOrdersLowestBalanceFirst
+42/52 Test: DebtPrioritizerTest.SnowballOrdersLowestBalanceFirst
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=DebtPrioritizerTest.SnowballOrdersLowestBalanceFirst" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"DebtPrioritizerTest.SnowballOrdersLowestBalanceFirst" start time: Jul 22 18:46 India Standard Time
+"DebtPrioritizerTest.SnowballOrdersLowestBalanceFirst" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -1130,15 +1130,15 @@ Note: Google Test filter = DebtPrioritizerTest.SnowballOrdersLowestBalanceFirst
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"DebtPrioritizerTest.SnowballOrdersLowestBalanceFirst" end time: Jul 22 18:46 India Standard Time
+"DebtPrioritizerTest.SnowballOrdersLowestBalanceFirst" end time: Jul 23 14:36 India Standard Time
 "DebtPrioritizerTest.SnowballOrdersLowestBalanceFirst" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-43/46 Testing: DebtPrioritizerTest.AvalancheOrdersHighestinterestFirst
-43/46 Test: DebtPrioritizerTest.AvalancheOrdersHighestinterestFirst
+43/52 Testing: DebtPrioritizerTest.AvalancheOrdersHighestinterestFirst
+43/52 Test: DebtPrioritizerTest.AvalancheOrdersHighestinterestFirst
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=DebtPrioritizerTest.AvalancheOrdersHighestinterestFirst" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"DebtPrioritizerTest.AvalancheOrdersHighestinterestFirst" start time: Jul 22 18:46 India Standard Time
+"DebtPrioritizerTest.AvalancheOrdersHighestinterestFirst" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -1157,15 +1157,15 @@ Note: Google Test filter = DebtPrioritizerTest.AvalancheOrdersHighestinterestFir
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"DebtPrioritizerTest.AvalancheOrdersHighestinterestFirst" end time: Jul 22 18:46 India Standard Time
+"DebtPrioritizerTest.AvalancheOrdersHighestinterestFirst" end time: Jul 23 14:36 India Standard Time
 "DebtPrioritizerTest.AvalancheOrdersHighestinterestFirst" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-44/46 Testing: DebtPrioritizerTest.SnowballUsesHigherInterestForEqualBalances
-44/46 Test: DebtPrioritizerTest.SnowballUsesHigherInterestForEqualBalances
+44/52 Testing: DebtPrioritizerTest.SnowballUsesHigherInterestForEqualBalances
+44/52 Test: DebtPrioritizerTest.SnowballUsesHigherInterestForEqualBalances
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=DebtPrioritizerTest.SnowballUsesHigherInterestForEqualBalances" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"DebtPrioritizerTest.SnowballUsesHigherInterestForEqualBalances" start time: Jul 22 18:46 India Standard Time
+"DebtPrioritizerTest.SnowballUsesHigherInterestForEqualBalances" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -1184,15 +1184,15 @@ Note: Google Test filter = DebtPrioritizerTest.SnowballUsesHigherInterestForEqua
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"DebtPrioritizerTest.SnowballUsesHigherInterestForEqualBalances" end time: Jul 22 18:46 India Standard Time
+"DebtPrioritizerTest.SnowballUsesHigherInterestForEqualBalances" end time: Jul 23 14:36 India Standard Time
 "DebtPrioritizerTest.SnowballUsesHigherInterestForEqualBalances" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-45/46 Testing: DebtPrioritizerTest.AvalancheUsesLowerBalanceForEqualRates
-45/46 Test: DebtPrioritizerTest.AvalancheUsesLowerBalanceForEqualRates
+45/52 Testing: DebtPrioritizerTest.AvalancheUsesLowerBalanceForEqualRates
+45/52 Test: DebtPrioritizerTest.AvalancheUsesLowerBalanceForEqualRates
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=DebtPrioritizerTest.AvalancheUsesLowerBalanceForEqualRates" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"DebtPrioritizerTest.AvalancheUsesLowerBalanceForEqualRates" start time: Jul 22 18:46 India Standard Time
+"DebtPrioritizerTest.AvalancheUsesLowerBalanceForEqualRates" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -1211,15 +1211,15 @@ Note: Google Test filter = DebtPrioritizerTest.AvalancheUsesLowerBalanceForEqual
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"DebtPrioritizerTest.AvalancheUsesLowerBalanceForEqualRates" end time: Jul 22 18:46 India Standard Time
+"DebtPrioritizerTest.AvalancheUsesLowerBalanceForEqualRates" end time: Jul 23 14:36 India Standard Time
 "DebtPrioritizerTest.AvalancheUsesLowerBalanceForEqualRates" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-46/46 Testing: DebtPrioritizerTest.EmptyDebtCollectionProducesEmptyOrder
-46/46 Test: DebtPrioritizerTest.EmptyDebtCollectionProducesEmptyOrder
+46/52 Testing: DebtPrioritizerTest.EmptyDebtCollectionProducesEmptyOrder
+46/52 Test: DebtPrioritizerTest.EmptyDebtCollectionProducesEmptyOrder
 Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=DebtPrioritizerTest.EmptyDebtCollectionProducesEmptyOrder" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
-"DebtPrioritizerTest.EmptyDebtCollectionProducesEmptyOrder" start time: Jul 22 18:46 India Standard Time
+"DebtPrioritizerTest.EmptyDebtCollectionProducesEmptyOrder" start time: Jul 23 14:36 India Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -1235,11 +1235,173 @@ Note: Google Test filter = DebtPrioritizerTest.EmptyDebtCollectionProducesEmptyO
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"DebtPrioritizerTest.EmptyDebtCollectionProducesEmptyOrder" end time: Jul 22 18:46 India Standard Time
+"DebtPrioritizerTest.EmptyDebtCollectionProducesEmptyOrder" end time: Jul 23 14:36 India Standard Time
 "DebtPrioritizerTest.EmptyDebtCollectionProducesEmptyOrder" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Jul 22 18:46 India Standard Time
+47/52 Testing: PortfolioPaymentAllocatorTest.PaysMinimumPaymentToEveryActiveDebt
+47/52 Test: PortfolioPaymentAllocatorTest.PaysMinimumPaymentToEveryActiveDebt
+Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=PortfolioPaymentAllocatorTest.PaysMinimumPaymentToEveryActiveDebt" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
+"PortfolioPaymentAllocatorTest.PaysMinimumPaymentToEveryActiveDebt" start time: Jul 23 14:36 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = PortfolioPaymentAllocatorTest.PaysMinimumPaymentToEveryActiveDebt
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PortfolioPaymentAllocatorTest
+[ RUN      ] PortfolioPaymentAllocatorTest.PaysMinimumPaymentToEveryActiveDebt
+[       OK ] PortfolioPaymentAllocatorTest.PaysMinimumPaymentToEveryActiveDebt (0 ms)
+[----------] 1 test from PortfolioPaymentAllocatorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"PortfolioPaymentAllocatorTest.PaysMinimumPaymentToEveryActiveDebt" end time: Jul 23 14:36 India Standard Time
+"PortfolioPaymentAllocatorTest.PaysMinimumPaymentToEveryActiveDebt" time elapsed: 00:00:00
+----------------------------------------------------------
+
+48/52 Testing: PortfolioPaymentAllocatorTest.SnowballSendsExtraToLowestBalanceDept
+48/52 Test: PortfolioPaymentAllocatorTest.SnowballSendsExtraToLowestBalanceDept
+Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=PortfolioPaymentAllocatorTest.SnowballSendsExtraToLowestBalanceDept" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
+"PortfolioPaymentAllocatorTest.SnowballSendsExtraToLowestBalanceDept" start time: Jul 23 14:36 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = PortfolioPaymentAllocatorTest.SnowballSendsExtraToLowestBalanceDept
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PortfolioPaymentAllocatorTest
+[ RUN      ] PortfolioPaymentAllocatorTest.SnowballSendsExtraToLowestBalanceDept
+[       OK ] PortfolioPaymentAllocatorTest.SnowballSendsExtraToLowestBalanceDept (0 ms)
+[----------] 1 test from PortfolioPaymentAllocatorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"PortfolioPaymentAllocatorTest.SnowballSendsExtraToLowestBalanceDept" end time: Jul 23 14:36 India Standard Time
+"PortfolioPaymentAllocatorTest.SnowballSendsExtraToLowestBalanceDept" time elapsed: 00:00:00
+----------------------------------------------------------
+
+49/52 Testing: PortfolioPaymentAllocatorTest.AvalancheSendsExtraToHighestRateDebt
+49/52 Test: PortfolioPaymentAllocatorTest.AvalancheSendsExtraToHighestRateDebt
+Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=PortfolioPaymentAllocatorTest.AvalancheSendsExtraToHighestRateDebt" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
+"PortfolioPaymentAllocatorTest.AvalancheSendsExtraToHighestRateDebt" start time: Jul 23 14:36 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = PortfolioPaymentAllocatorTest.AvalancheSendsExtraToHighestRateDebt
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PortfolioPaymentAllocatorTest
+[ RUN      ] PortfolioPaymentAllocatorTest.AvalancheSendsExtraToHighestRateDebt
+[       OK ] PortfolioPaymentAllocatorTest.AvalancheSendsExtraToHighestRateDebt (0 ms)
+[----------] 1 test from PortfolioPaymentAllocatorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"PortfolioPaymentAllocatorTest.AvalancheSendsExtraToHighestRateDebt" end time: Jul 23 14:36 India Standard Time
+"PortfolioPaymentAllocatorTest.AvalancheSendsExtraToHighestRateDebt" time elapsed: 00:00:00
+----------------------------------------------------------
+
+50/52 Testing: PortfolioPaymentAllocatorTest.RejectsBudgetBelowTotalMinimumPayments
+50/52 Test: PortfolioPaymentAllocatorTest.RejectsBudgetBelowTotalMinimumPayments
+Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=PortfolioPaymentAllocatorTest.RejectsBudgetBelowTotalMinimumPayments" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
+"PortfolioPaymentAllocatorTest.RejectsBudgetBelowTotalMinimumPayments" start time: Jul 23 14:36 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = PortfolioPaymentAllocatorTest.RejectsBudgetBelowTotalMinimumPayments
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PortfolioPaymentAllocatorTest
+[ RUN      ] PortfolioPaymentAllocatorTest.RejectsBudgetBelowTotalMinimumPayments
+[       OK ] PortfolioPaymentAllocatorTest.RejectsBudgetBelowTotalMinimumPayments (0 ms)
+[----------] 1 test from PortfolioPaymentAllocatorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"PortfolioPaymentAllocatorTest.RejectsBudgetBelowTotalMinimumPayments" end time: Jul 23 14:36 India Standard Time
+"PortfolioPaymentAllocatorTest.RejectsBudgetBelowTotalMinimumPayments" time elapsed: 00:00:00
+----------------------------------------------------------
+
+51/52 Testing: PortfolioPaymentAllocatorTest.DoesNotAllocateMoreThanAmoundDue
+51/52 Test: PortfolioPaymentAllocatorTest.DoesNotAllocateMoreThanAmoundDue
+Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=PortfolioPaymentAllocatorTest.DoesNotAllocateMoreThanAmoundDue" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
+"PortfolioPaymentAllocatorTest.DoesNotAllocateMoreThanAmoundDue" start time: Jul 23 14:36 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = PortfolioPaymentAllocatorTest.DoesNotAllocateMoreThanAmoundDue
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PortfolioPaymentAllocatorTest
+[ RUN      ] PortfolioPaymentAllocatorTest.DoesNotAllocateMoreThanAmoundDue
+[       OK ] PortfolioPaymentAllocatorTest.DoesNotAllocateMoreThanAmoundDue (0 ms)
+[----------] 1 test from PortfolioPaymentAllocatorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"PortfolioPaymentAllocatorTest.DoesNotAllocateMoreThanAmoundDue" end time: Jul 23 14:36 India Standard Time
+"PortfolioPaymentAllocatorTest.DoesNotAllocateMoreThanAmoundDue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+52/52 Testing: PortfolioPaymentAllocatorTest.SkipsFullyRepaidDebt
+52/52 Test: PortfolioPaymentAllocatorTest.SkipsFullyRepaidDebt
+Command: "C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests/Debug/debtpilot_tests.exe" "--gtest_filter=PortfolioPaymentAllocatorTest.SkipsFullyRepaidDebt" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/p.anvesh/source/repos/Debt-Pilot/build/tests
+"PortfolioPaymentAllocatorTest.SkipsFullyRepaidDebt" start time: Jul 23 14:36 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\p.anvesh\source\repos\Debt-Pilot\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = PortfolioPaymentAllocatorTest.SkipsFullyRepaidDebt
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from PortfolioPaymentAllocatorTest
+[ RUN      ] PortfolioPaymentAllocatorTest.SkipsFullyRepaidDebt
+[       OK ] PortfolioPaymentAllocatorTest.SkipsFullyRepaidDebt (0 ms)
+[----------] 1 test from PortfolioPaymentAllocatorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"PortfolioPaymentAllocatorTest.SkipsFullyRepaidDebt" end time: Jul 23 14:36 India Standard Time
+"PortfolioPaymentAllocatorTest.SkipsFullyRepaidDebt" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jul 23 14:36 India Standard Time

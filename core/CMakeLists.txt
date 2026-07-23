@@ -9,6 +9,9 @@ add_library(debtpilot_core STATIC
     src/RepaymentSchedule.cpp
     src/RepaymentScheduleGenerator.cpp
     src/DebtPrioritizer.cpp
+    src/DebtPaymentAllocation.cpp
+    src/PortfolioPaymentAllocation.cpp
+    src/PortfolioPaymentAllocator.cpp
 )
 
 target_include_directories(debtpilot_core PUBLIC
