@@ -437,6 +437,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\p.anvesh\source\repos\Debt-Pilot\tests\DebtPrioritizerTests.cpp" />
     <ClCompile Include="C:\Users\p.anvesh\source\repos\Debt-Pilot\tests\PortfolioPaymentAllocatorTests.cpp" />
     <ClCompile Include="C:\Users\p.anvesh\source\repos\Debt-Pilot\tests\PortfolioRepaymentSimulatorTests.cpp" />
+    <ClCompile Include="C:\Users\p.anvesh\source\repos\Debt-Pilot\tests\StrategyComparisonEngineTests.cpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

@@ -1,5 +1,5 @@
 {
-  "tests": 59,
+  "tests": 65,
   "name": "AllTests",
   "testsuites": [
     {
@@ -354,6 +354,48 @@
           "name": "StopAtMaximumLimit",
           "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\PortfolioRepaymentSimulatorTests.cpp",
           "line": 107
+        }
+      ]
+    },
+    {
+      "name": "StrategyComparisionEngineTest",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "GeneratesBothStrategyPlans",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\StrategyComparisonEngineTests.cpp",
+          "line": 21
+        }
+      ]
+    },
+    {
+      "name": "StrategyComparisonEngineTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "RecommendsAvalancheWhenItCostsLessInterest",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\StrategyComparisonEngineTests.cpp",
+          "line": 35
+        },
+        {
+          "name": "CalculatesAbsoluteInterestSavings",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\StrategyComparisonEngineTests.cpp",
+          "line": 49
+        },
+        {
+          "name": "UsesAvalancheWhenStrategiesAreEqual",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\StrategyComparisonEngineTests.cpp",
+          "line": 66
+        },
+        {
+          "name": "HandlesEmptyPortfolio",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\StrategyComparisonEngineTests.cpp",
+          "line": 82
+        },
+        {
+          "name": "TotalPaidEqualsPrincipalPlusInterestForBothStrategies",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\StrategyComparisonEngineTests.cpp",
+          "line": 95
         }
       ]
     }

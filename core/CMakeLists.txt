@@ -16,6 +16,8 @@ add_library(debtpilot_core STATIC
     src/PortfolioRepaymentPlan.cpp
     src/PortfolioRepaymentSimulator.cpp
     src/DebtMonthlySnapshot.cpp
+    src/StrategyComparisonEngine.cpp
+    src/StrategyComparisonResult.cpp
 )
 
 target_include_directories(debtpilot_core PUBLIC
