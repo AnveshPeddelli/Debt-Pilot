@@ -31,6 +31,9 @@
     <ClCompile Include="C:\Users\p.anvesh\source\repos\Debt-Pilot\tests\StrategyComparisonEngineTests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\p.anvesh\source\repos\Debt-Pilot\tests\DebtPlanningServiceTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\p.anvesh\source\repos\Debt-Pilot\tests\CMakeLists.txt" />

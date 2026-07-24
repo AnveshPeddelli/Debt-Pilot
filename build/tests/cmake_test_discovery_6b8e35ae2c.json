@@ -1,5 +1,5 @@
 {
-  "tests": 65,
+  "tests": 71,
   "name": "AllTests",
   "testsuites": [
     {
@@ -396,6 +396,48 @@
           "name": "TotalPaidEqualsPrincipalPlusInterestForBothStrategies",
           "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\StrategyComparisonEngineTests.cpp",
           "line": 95
+        }
+      ]
+    },
+    {
+      "name": "DebtPlanningServiceTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "GenerateSnowballPlan",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\DebtPlanningServiceTests.cpp",
+          "line": 26
+        },
+        {
+          "name": "GeneratesAvalanchePlan",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\DebtPlanningServiceTests.cpp",
+          "line": 39
+        },
+        {
+          "name": "ComparesSnowballAndAvalanche",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\DebtPlanningServiceTests.cpp",
+          "line": 52
+        }
+      ]
+    },
+    {
+      "name": "DebtPlanningRequestTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "RejectsNegativeMonthlyBudget",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\DebtPlanningServiceTests.cpp",
+          "line": 66
+        },
+        {
+          "name": "RejectsZeroMaximumMonths",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\DebtPlanningServiceTests.cpp",
+          "line": 72
+        },
+        {
+          "name": "PreservesPlanningInput",
+          "file": "C:\\Users\\p.anvesh\\source\\repos\\Debt-Pilot\\tests\\DebtPlanningServiceTests.cpp",
+          "line": 78
         }
       ]
     }

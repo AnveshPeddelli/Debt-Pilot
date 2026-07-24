@@ -21,6 +21,7 @@ add_executable(debtpilot_tests
     PortfolioPaymentAllocatorTests.cpp
     PortfolioRepaymentSimulatorTests.cpp
     StrategyComparisonEngineTests.cpp
+    DebtPlanningServiceTests.cpp
 )
 
 target_link_libraries(debtpilot_tests PRIVATE
