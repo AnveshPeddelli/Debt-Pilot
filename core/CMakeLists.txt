@@ -20,6 +20,7 @@ add_library(debtpilot_core STATIC
     src/StrategyComparisonResult.cpp
     src/DebtPlanningRequest.cpp
     src/DebtPlanningService.cpp
+    src/MinimumBudgetCalculator.cpp
 )
 
 target_include_directories(debtpilot_core PUBLIC

@@ -4,6 +4,12 @@
     <ClCompile Include="C:\Users\p.anvesh\source\repos\Debt-Pilot\cli\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\p.anvesh\source\repos\Debt-Pilot\cli\src\ConsoleInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\p.anvesh\source\repos\Debt-Pilot\cli\src\ConsoleReporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\p.anvesh\source\repos\Debt-Pilot\cli\CMakeLists.txt" />

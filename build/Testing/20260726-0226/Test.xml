@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Win32-MSBuild"
+	BuildStamp="20260726-0226-Experimental"
+	Name="INTLP105"
+	Generator="ctest-4.3.1-msvc1"
+	CompilerName="D:/VISUAL-STUDIO-2026/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/cl.exe"
+	CompilerVersion="19.51.36248.0"
+	OSName="Windows"
+	Hostname="INTLP105"
+	OSRelease="10.0.26200"
+	OSVersion="Windows 10"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="5"
+	ModelName=""
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="14"
+	NumberOfPhysicalCPU="12"
+	TotalVirtualMemory="32213"
+	TotalPhysicalMemory="32212"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2100.000000"
+	>
+	<Testing>
+		<StartDateTime>Jul 26 21:04 India Standard Time</StartDateTime>
+		<StartTestTime>1785080075</StartTestTime>
+		<TestList/>
+		<EndDateTime>Jul 26 21:04 India Standard Time</EndDateTime>
+		<EndTestTime>1785080075</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

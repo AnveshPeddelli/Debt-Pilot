@@ -1,25 +1,43 @@
-#include "debtpilot/Debt.hpp"
+#include "debtpilot/DebtPlanningRequest.hpp"
+#include "debtpilot/DebtPlanningService.hpp"
+#include "debtpilot/RepaymentStrategy.hpp"
 
+#include "ConsoleInput.hpp"
+#include "ConsoleReporter.hpp"
+
+#include <exception>
 #include <iostream>
+
 
 int main()
 {
-    using namespace debtpilot;
+    try
+    {
+        std::cout
+        << "========================================\n"
+        << "             DebtPilot CLI\n"
+        << "========================================\n"
+        << "Debt repayment planning with Snowball "
+        << "and Avalanche strategies.\n\n";
+        
+        const debtpilot::cli::ConsoleInput input;
+        const debtpilot::cli::ConsoleReporter reporter;
 
-    const Debt debt{
-        "7000",
-        "icici card",
-        DebtType::CreditCard,
-        Money::fromPaise(45'000 * 100),
-        InterestRate::fromBasisPoints(3600),
-        Money::fromPaise(3'000 * 100),
-        15
-    };
+        const auto debts = input.readDebts();
+        const debtpilot::Money monthlyBudget = input.readMonthlyBudget();
+        const debtpilot::DebtPlanningRequest request{debts, monthlyBudget};
+        const debtpilot::DebtPlanningService service;
+        const auto comparison = service.compareStrategies(request);
+        
+        reporter.printPlan(comparison.snowballPlan(), debtpilot::RepaymentStrategy::Snowball);
+        reporter.printPlan(comparison.avalanchePlan(), debtpilot::RepaymentStrategy::Avalanche);
+        reporter.printComparison(comparison);
 
-    std::cout
-        << "Debt: "<< debt.name()<< '\n'
-        << "Balance in paise: "<< debt.outstandingBalance().paise() << '\n'
-        << "APR basis points: "<< debt.annualInterestRate().basisPoints() << '\n';
-
-    return 0;
+        return 0;
+    }
+    catch(const std::exception& exception)
+    {
+        std::cerr << "\nDebtPilot failed: "<< exception.what()<< '\n';
+        return 1;
+    }
 }
