@@ -1,1 +1,19 @@
 .agents/
+
+# CMake build output
+build/
+out/
+cmake-build-*/
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Generated binaries
+*.exe
+*.dll
+*.lib
+*.obj
+*.pdb

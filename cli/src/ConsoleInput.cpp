@@ -1,4 +1,4 @@
-#include "ConsoleInput.hpp"
+#include "debtpilot/cli/ConsoleInput.hpp"
 
 #include "debtpilot/DebtType.hpp"
 #include "debtpilot/InterestRate.hpp"

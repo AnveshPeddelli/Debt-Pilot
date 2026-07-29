@@ -1,4 +1,4 @@
-#include "ConsoleReporter.hpp"
+#include "debtpilot/cli/ConsoleReporter.hpp"
 
 #include <cstdlib>
 #include <iomanip>

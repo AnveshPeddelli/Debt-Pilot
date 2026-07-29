@@ -1,0 +1,54 @@
+{
+    "debts": [
+        {
+            "annual_interest_basis_points": 1800,
+            "id": "7000",
+            "minimum_payment_rupees": "8000",
+            "name": "icici_7000",
+            "outstanding_balance_rupees": "50000",
+            "type": "credit_card"
+        },
+        {
+            "annual_interest_basis_points": 1800,
+            "id": "8000",
+            "minimum_payment_rupees": "10000",
+            "name": "icici_8000",
+            "outstanding_balance_rupees": "30000",
+            "type": "credit_card"
+        },
+        {
+            "annual_interest_basis_points": 1800,
+            "id": "8552",
+            "minimum_payment_rupees": "4000.00",
+            "name": "axis",
+            "outstanding_balance_rupees": "13500",
+            "type": "credit_card"
+        },
+        {
+            "annual_interest_basis_points": 2000,
+            "id": "7763",
+            "minimum_payment_rupees": "16000",
+            "name": "idfc",
+            "outstanding_balance_rupees": "110000.00",
+            "type": "credit_card"
+        },
+        {
+            "annual_interest_basis_points": 1800,
+            "id": "2393",
+            "minimum_payment_rupees": "9000",
+            "name": "yes",
+            "outstanding_balance_rupees": "24000",
+            "type": "credit_card"
+        },
+        {
+            "annual_interest_basis_points": 0,
+            "id": "7504",
+            "minimum_payment_rupees": "3000.00",
+            "name": "hdfc",
+            "outstanding_balance_rupees": "11000.00",
+            "type": "credit_card"
+        }
+    ],
+    "maximum_months": 900,
+    "monthly_extra_payment_rupees": "0.00"
+}
