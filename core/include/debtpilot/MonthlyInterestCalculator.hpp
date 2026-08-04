@@ -3,7 +3,6 @@
 #include "debtpilot/InterestRate.hpp"
 #include "debtpilot/Money.hpp"
 
-
 namespace debtpilot
 {
     class MonthlyInterestCalculator

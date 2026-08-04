@@ -1,10 +1,11 @@
-#include "debtpilot/DeptMonthlySnapshot.hpp"
+#include "debtpilot/DebtMonthlySnapshot.hpp"
 
 #include <utility>
 
 namespace debtpilot
 {
-    DebtMonthlySnapshot::DebtMonthlySnapshot(std::string debtId, Money openingBalance, Money interestCharged, Money payment, Money principalRepaid, Money closingBalance) : debtId_{debtId}, openingBalance_{openingBalance}, interestCharged_{interestCharged}, payment_{payment}, principalRepaid_{principalRepaid}, closingBalance_{closingBalance}
+    DebtMonthlySnapshot::DebtMonthlySnapshot(std::string debtId, Money openingBalance, Money interestCharged, Money minimumPayment, Money extraPayment, Money payment, Money principalRepaid, Money closingBalance, bool priorityDebt) : 
+    debtId_{debtId}, openingBalance_{openingBalance}, interestCharged_{interestCharged}, minimumPayment_{minimumPayment}, extraPayment_{extraPayment}, payment_{payment}, principalRepaid_{principalRepaid}, closingBalance_{closingBalance}, priorityDebt_{priorityDebt}
     {
 
     }
@@ -24,6 +25,16 @@ namespace debtpilot
         return interestCharged_;
     }
 
+    Money DebtMonthlySnapshot::minimumPayment() const noexcept
+    {
+        return minimumPayment_;
+    }
+
+    Money DebtMonthlySnapshot::extraPayment() const noexcept
+    {
+        return extraPayment_;
+    }
+
     Money DebtMonthlySnapshot::payment() const noexcept
     {
         return payment_;
@@ -39,5 +50,14 @@ namespace debtpilot
         return closingBalance_;
     }
 
+    bool DebtMonthlySnapshot::isPriorityDebt() const noexcept
+    {
+        return priorityDebt_;
+    }
+
+    bool DebtMonthlySnapshot::isFinalPayment() const noexcept
+    {
+        return closingBalance_.isZero();
+    }
     
 }

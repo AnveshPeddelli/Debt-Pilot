@@ -21,6 +21,8 @@ add_library(debtpilot_core STATIC
     src/DebtPlanningRequest.cpp
     src/DebtPlanningService.cpp
     src/MinimumBudgetCalculator.cpp
+    src/PlannedPaymentPayoffResult.cpp
+    src/PlannedPaymentPayoffSimulator.cpp
 )
 
 target_include_directories(debtpilot_core PUBLIC

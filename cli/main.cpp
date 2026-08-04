@@ -1,6 +1,8 @@
 #include "debtpilot/DebtPlanningRequest.hpp"
 #include "debtpilot/DebtPlanningService.hpp"
 #include "debtpilot/MinimumBudgetCalculator.hpp"
+#include "debtpilot/Money.hpp"
+
 #include "debtpilot/cli/ConsoleReporter.hpp"
 #include "debtpilot/cli/DebtFileManager.hpp"
 
@@ -10,26 +12,38 @@
 #include <iostream>
 #include <stdexcept>
 #include <string>
+#include <system_error>
 
 namespace
 {
 
-std::size_t parseDebtCount(const std::string& text)
+[[nodiscard]] std::size_t parseDebtCount(const std::string& text)
 {
+    if (text.empty())
+    {
+        throw std::invalid_argument{
+            "Debt count cannot be empty"
+        };
+    }
+
     std::size_t value{};
+
+    const char* begin = text.data();
+    const char* end = begin + text.size();
 
     const auto [position, error] =
         std::from_chars(
-            text.data(),
-            text.data() + text.size(),
+            begin,
+            end,
             value
         );
 
     if (
         error != std::errc{} ||
-        position != text.data() + text.size() ||
+        position != end ||
         value == 0
-    ) {
+    )
+    {
         throw std::invalid_argument{
             "Debt count must be a positive whole number"
         };
@@ -41,103 +55,264 @@ std::size_t parseDebtCount(const std::string& text)
 void printUsage()
 {
     std::cout
+        << "DebtPilot CLI\n\n"
         << "Usage:\n"
         << "  debtpilot_cli generate-template "
         << "<debt-count> <output-file>\n"
-        << "  debtpilot_cli run <input-file>\n";
+        << '\n'
+        << "  debtpilot_cli run <input-file>\n"
+        << '\n'
+        << "  debtpilot_cli run <input-file> "
+        << "--details snowball\n"
+        << '\n'
+        << "  debtpilot_cli run <input-file> "
+        << "--details avalanche\n"
+        << '\n'
+        << "Examples:\n"
+        << "  debtpilot_cli generate-template "
+        << "6 debts.json\n"
+        << '\n'
+        << "  debtpilot_cli run debts.json\n"
+        << '\n'
+        << "  debtpilot_cli run debts.json "
+        << "--details avalanche\n";
 }
 
+void printMoney(
+    const std::string& label,
+    debtpilot::Money money
+)
+{
+    const std::int64_t paise =
+        money.paise();
+
+    const std::int64_t rupees =
+        paise / 100;
+
+    const std::int64_t remainingPaise =
+        paise % 100;
+
+    std::cout
+        << label
+        << "Rs. "
+        << rupees
+        << '.';
+
+    if (remainingPaise < 10)
+    {
+        std::cout << '0';
+    }
+
+    std::cout
+        << remainingPaise
+        << '\n';
+}
+
+int handleGenerateTemplate(
+    int argc,
+    char* argv[]
+)
+{
+    if (argc != 4)
+    {
+        printUsage();
+        return 1;
+    }
+
+    const std::size_t debtCount =
+        parseDebtCount(argv[2]);
+
+    const std::filesystem::path outputPath{
+        argv[3]
+    };
+
+    debtpilot::cli::DebtFileManager::
+        generateTemplate(
+            debtCount,
+            outputPath
+        );
+
+    std::cout
+        << "Template created: "
+        << outputPath.string()
+        << '\n';
+
+    return 0;
+}
+
+int handleRun(int argc, char* argv[])
+{
+    if (argc != 3 && argc != 5)
+    {
+        printUsage();
+        return 1;
+    }
+
+    const std::filesystem::path inputPath{
+        argv[2]
+    };
+
+    const debtpilot::cli::DebtFileData fileData =
+        debtpilot::cli::DebtFileManager::load(
+            inputPath
+        );
+
+    const debtpilot::Money minimumBudget =
+        debtpilot::MinimumBudgetCalculator::
+            calculate(
+                fileData.debts()
+            );
+
+    const debtpilot::Money monthlyBudget =
+        fileData.monthlyBudget();
+
+    std::cout
+        << "DebtPilot repayment analysis\n"
+        << "Input file: "
+        << inputPath.string()
+        << "\n\n";
+
+    std::cout
+        << "Debts loaded: "
+        << fileData.debts().size()
+        << '\n';
+
+    printMoney(
+        "Minimum required monthly budget: ",
+        minimumBudget
+    );
+
+    printMoney(
+        "Configured monthly budget:       ",
+        monthlyBudget
+    );
+
+    if (monthlyBudget < minimumBudget)
+    {
+        const debtpilot::Money shortfall =
+            minimumBudget - monthlyBudget;
+
+        printMoney(
+            "Monthly budget shortfall:      ",
+            shortfall
+        );
+
+        std::cout
+            << '\n'
+            << "The configured monthly budget is below "
+            << "the combined minimum payments.\n"
+            << "A Snowball or Avalanche portfolio plan "
+            << "cannot be generated with this budget.\n";
+
+        return 2;
+    }
+
+    const debtpilot::Money strategyBudget =
+        monthlyBudget - minimumBudget;
+
+    printMoney(
+        "Available strategic payment:     ",
+        strategyBudget
+    );
+
+    std::cout << '\n';
+
+    const debtpilot::DebtPlanningRequest request{
+        fileData.debts(),
+        monthlyBudget,
+        fileData.maximumMonths()
+    };
+
+    const debtpilot::DebtPlanningService service;
+
+    const auto comparison =
+        service.compareStrategies(request);
+
+    const debtpilot::cli::ConsoleReporter reporter;
+
+    reporter.printComparison(comparison);
+
+    if (argc == 5)
+    {
+        const std::string option{
+            argv[3]
+        };
+
+        const std::string strategy{
+            argv[4]
+        };
+
+        if (option != "--details")
+        {
+            throw std::invalid_argument{
+                "Expected --details option"
+            };
+        }
+
+        if (strategy == "snowball")
+        {
+            reporter.printRepaymentPlan(
+                comparison.snowballPlan(),
+                fileData.debts(),
+                "SNOWBALL"
+            );
+        }
+        else if (strategy == "avalanche")
+        {
+            reporter.printRepaymentPlan(
+                comparison.avalanchePlan(),
+                fileData.debts(),
+                "AVALANCHE"
+            );
+        }
+        else
+        {
+            throw std::invalid_argument{
+                "Strategy must be snowball or avalanche"
+            };
+        }
+    }
+
+    return 0;
+}
 }
 
 int main(int argc, char* argv[])
 {
-    try {
-        if (argc < 2) {
+    try
+    {
+        if (argc < 2)
+        {
             printUsage();
             return 1;
         }
 
-        const std::string command = argv[1];
+        const std::string command{
+            argv[1]
+        };
 
-        if (command == "generate-template") {
-            if (argc != 4) {
-                printUsage();
-                return 1;
-            }
-
-            const std::size_t debtCount =
-                parseDebtCount(argv[2]);
-
-            debtpilot::cli::DebtFileManager::generateTemplate(
-                debtCount,
-                std::filesystem::path{argv[3]}
+        if (command == "generate-template")
+        {
+            return handleGenerateTemplate(
+                argc,
+                argv
             );
-
-            std::cout
-                << "Template created: "
-                << argv[3]
-                << '\n';
-
-            return 0;
         }
 
-        if (command == "run") {
-            if (argc != 3) {
-                printUsage();
-                return 1;
-            }
-
-            const auto fileData =
-                debtpilot::cli::DebtFileManager::load(
-                    std::filesystem::path{argv[2]}
-                );
-
-            const debtpilot::Money minimumBudget =
-                debtpilot::MinimumBudgetCalculator::calculate(
-                    fileData.debts()
-                );
-
-            const debtpilot::Money finalBudget =
-                minimumBudget +
-                fileData.monthlyExtraPayment();
-
-            std::cout
-                << "Minimum required monthly budget: Rs. "
-                << minimumBudget.paise() / 100
-                << '\n';
-
-            std::cout
-                << "Configured extra payment: Rs. "
-                << fileData.monthlyExtraPayment().paise() / 100
-                << '\n';
-
-            std::cout
-                << "Final monthly budget: Rs. "
-                << finalBudget.paise() / 100
-                << '\n';
-
-            const debtpilot::DebtPlanningRequest request{
-                fileData.debts(),
-                finalBudget,
-                fileData.maximumMonths()
-            };
-
-            const debtpilot::DebtPlanningService service;
-            const auto comparison =
-                service.compareStrategies(request);
-
-            const debtpilot::cli::ConsoleReporter reporter;
-
-            reporter.printComparison(comparison);
-
-            return 0;
+        if (command == "run")
+        {
+            return handleRun(
+                argc,
+                argv
+            );
         }
 
         throw std::invalid_argument{
             "Unknown command: " + command
         };
     }
-    catch (const std::exception& exception) {
+    catch (const std::exception& exception)
+    {
         std::cerr
             << "DebtPilot failed: "
             << exception.what()

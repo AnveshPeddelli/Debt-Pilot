@@ -1,7 +1,10 @@
 {
     "cmake.cmakePath": "D:/VISUAL-STUDIO-2026/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe",
     "cmake.generator": "Ninja",
+
     "cmake.configureOnOpen": true,
+    "cmake.configureOnEdit": false,
+
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
     "C_Cpp.intelliSenseEngine": "default",
     "C_Cpp.autocomplete": "default"

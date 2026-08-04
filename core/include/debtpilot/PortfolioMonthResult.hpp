@@ -1,6 +1,6 @@
 #pragma once
 
-#include "debtpilot/DeptMonthlySnapshot.hpp"
+#include "debtpilot/DebtMonthlySnapshot.hpp"
 #include "debtpilot/Money.hpp"
 
 #include <cstddef>

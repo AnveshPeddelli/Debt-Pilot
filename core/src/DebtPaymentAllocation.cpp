@@ -4,7 +4,8 @@
 
 namespace debtpilot
 {
-    DebtPaymentAllocation::DebtPaymentAllocation(std::string debtId, Money minimumPayment, Money extraPayment, Money totalPayment) : debtId_{std::move(debtId)}, minimumPayment_{minimumPayment}, extraPayment_{extraPayment}, totalPayment_{totalPayment}
+    DebtPaymentAllocation::DebtPaymentAllocation(std::string debtId, Money minimumPayment, Money extraPayment, Money totalPayment, bool priorityDebt) : 
+    debtId_{std::move(debtId)}, minimumPayment_{minimumPayment}, extraPayment_{extraPayment}, totalPayment_{totalPayment}, priorityDebt_{priorityDebt}
     {
 
     }
@@ -28,4 +29,10 @@ namespace debtpilot
     {
         return totalPayment_;
     }
+
+    bool DebtPaymentAllocation::isPriorityDebt() const noexcept
+    {
+        return priorityDebt_;
+    }
+    
 }

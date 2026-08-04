@@ -85,7 +85,9 @@ namespace debtpilot
         for(std::size_t index = 0; index < debts.size(); ++index)
         {
             const Money totalPayment = minimumAllocations[index] + extraAllocations[index];
-            allocations.emplace_back(debts[index].id(), minimumAllocations[index], extraAllocations[index], totalPayment);
+            const bool priorityDebt = !extraAllocations[index].isZero();
+
+            allocations.emplace_back(debts[index].id(), minimumAllocations[index], extraAllocations[index], totalPayment, priorityDebt);
             totalAllocated = totalAllocated + totalPayment;
         }
 

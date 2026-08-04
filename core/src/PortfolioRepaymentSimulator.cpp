@@ -86,7 +86,17 @@ namespace debtpilot
 
                 if(openingBalance.isZero())
                 {
-                    debtSnapshots.emplace_back(debt.id(), openingBalance, Money::fromPaise(0), Money::fromPaise(0), Money::fromPaise(0), Money::fromPaise(0));
+                    
+                    debtSnapshots.emplace_back(
+                        debt.id(), 
+                        openingBalance, 
+                        Money::fromPaise(0),    
+                        Money::fromPaise(0), 
+                        Money::fromPaise(0), 
+                        Money::fromPaise(0), 
+                        Money::fromPaise(0), 
+                        Money::fromPaise(0), 
+                        false);
                     continue;
                 }
                 
@@ -101,7 +111,7 @@ namespace debtpilot
 
                 monthInterest = monthInterest + repayment.interestCharged();
                 monthPaid = monthPaid + repayment.actualPayment();
-                debtSnapshots.emplace_back(debt.id(), repayment.openingBalance(), repayment.interestCharged(), repayment.actualPayment(), repayment.principalRepaid(), repayment.closingBalance());
+                debtSnapshots.emplace_back(debt.id(), repayment.openingBalance(), repayment.interestCharged(), allocations[index].minimumPayment(), allocations[index].extraPayment(), repayment.actualPayment(), repayment.principalRepaid(), repayment.closingBalance(), allocations[index].isPriorityDebt());
 
                 if(repayment.isFullyRepaid() && !payoffMonths.contains(debt.id()))
                 {

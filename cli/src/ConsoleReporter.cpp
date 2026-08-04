@@ -1,11 +1,11 @@
 #include "debtpilot/cli/ConsoleReporter.hpp"
 
+
 #include <cstdlib>
 #include <iomanip>
 #include <iostream>
 #include <sstream>
-#include <string>
-#include <vector>
+
 
 namespace debtpilot::cli
 {
@@ -101,6 +101,128 @@ namespace debtpilot::cli
         << " months\n";
 
         std::cout << "\n===============================================\n";
+    }
+
+    void ConsoleReporter::printRepaymentPlan(const PortfolioRepaymentPlan& plan, const std::vector<Debt>& debts, const std::string& strategyName) const
+    {
+        std::unordered_map<std::string, std::string> debtNames;
+
+        for (const Debt& debt : debts)
+        {
+            debtNames.emplace(
+                debt.id(),
+                debt.id()
+            );
+        }
+
+        std::cout
+            << "\n===============================================\n"
+            << strategyName
+            << " REPAYMENT SCHEDULE\n"
+            << "===============================================\n\n";
+
+        for (const PortfolioMonthResult& month :
+            plan.monthlyResults())
+        {
+            std::cout
+                << "Month "
+                << month.monthNumber()
+                << '\n';
+
+            std::vector<std::string> priorityDebts;
+
+            for (const DebtMonthlySnapshot& snapshot :
+                month.debtSnapshots())
+            {
+                if (
+                    snapshot.openingBalance().isZero() &&
+                    snapshot.payment().isZero()
+                )
+                {
+                    continue;
+                }
+
+                const auto iterator =
+                    debtNames.find(snapshot.debtId());
+
+                const std::string debtName =
+                    iterator != debtNames.end()
+                        ? iterator->second
+                        : snapshot.debtId();
+
+                std::cout
+                    << "  "
+                    << debtName
+                    << ": ";
+
+                if (
+                    snapshot.closingBalance().isZero() &&
+                    !snapshot.payment().isZero()
+                )
+                {
+                    std::cout
+                        << "final payment "
+                        << formatMoney(snapshot.payment());
+                }
+                else
+                {
+                    std::cout
+                        << "minimum "
+                        << formatMoney(
+                            snapshot.minimumPayment()
+                        );
+
+                    if (!snapshot.extraPayment().isZero())
+                    {
+                        std::cout
+                            << " + extra "
+                            << formatMoney(
+                                snapshot.extraPayment()
+                            );
+                    }
+                }
+
+                std::cout << '\n';
+
+                if (snapshot.isPriorityDebt())
+                {
+                    priorityDebts.push_back(debtName);
+                }
+            }
+
+            if (!priorityDebts.empty())
+            {
+                std::cout << "  Priority: ";
+
+                for (
+                    std::size_t index = 0;
+                    index < priorityDebts.size();
+                    ++index
+                )
+                {
+                    if (index > 0)
+                    {
+                        std::cout << " -> ";
+                    }
+
+                    std::cout << priorityDebts[index];
+                }
+
+                std::cout << '\n';
+            }
+
+            std::cout << '\n';
+        }
+
+        std::cout
+            << "Total interest: "
+            << formatMoney(plan.totalInterest())
+            << '\n';
+
+        std::cout
+            << "Total paid:     "
+            << formatMoney(plan.totalPaid())
+            << "\n\n";
     }
 
     std::string ConsoleReporter::formatMoney(Money money)
